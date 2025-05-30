@@ -5,9 +5,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
-    <img alt="Coding gif" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXByNm5pa2VmZWpmaXI4NzBiNmd0bmdqbnJhOW9wYms4bzBkbngzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXByNm5pa2VmZWpmaXI4NzBiNmd0bmdqbnJhOW9wYms4bzBkbngzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif">
+    <img alt="Coding gif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXByNm5pa2VmZWpmaXI4NzBiNmd0bmdqbnJhOW9wYms4bzBkbngzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" width="100%" alt="GIF Animation">
   </picture>
 </p>
 
@@ -21,10 +21,10 @@
 
 ### 🛠️ Tech Stack
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=php,html,css,js,bootstrap,python,git,github,vscode" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Codeigniter.svg" alt="CodeIgniter" title="CodeIgniter 4" width="48" height="48" style="margin-left:10px;" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Leaflet_logo.svg" alt="Leaflet" title="Leaflet JS" width="48" height="48" style="margin-left:10px;" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=php,html,css,js,bootstrap,python,git,github,vscode" alt="tech stack" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" title="CodeIgniter" width="48" height="48" style="margin-left:10px;" />
+  <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/leaf-green.png" title="Leaflet JS" width="48" height="48" style="margin-left:10px;" />
 </p>
 
 ---
