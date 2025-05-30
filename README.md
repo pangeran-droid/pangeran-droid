@@ -7,7 +7,9 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXByNm5pa2VmZWpmaXI4NzBiNmd0bmdqbnJhOW9wYms4bzBkbngzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif">
     <source media="(prefers-color-scheme: light)" srcset="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXByNm5pa2VmZWpmaXI4NzBiNmd0bmdqbnJhOW9wYms4bzBkbngzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif">
-    <img alt="Coding gif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXByNm5pa2VmZWpmaXI4NzBiNmd0bmdqbnJhOW9wYms4bzBkbngzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" width="100%" alt="GIF Animation">
+    <img alt="Coding gif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXByNm5pa2VmZWpmaXI4NzBiNmd0bmdqbnJhOW9wYms4bzBkbngzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" alt="Animated Banner"
+       width="100%" 
+       style="max-height: 180px; border-radius: 12px;" />
   </picture>
 </p>
 
