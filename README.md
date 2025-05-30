@@ -26,7 +26,7 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,html,css,js,bootstrap,python,git,github,vscode" alt="tech stack" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" title="CodeIgniter" width="48" height="48" style="margin-left:10px;" />
-  <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/leaf-green.png" title="Leaflet JS" width="48" height="48" style="margin-left:10px;" />
+  <img src="https://leafletjs.com/docs/images/logo.svg" title="Leaflet JS" width="48" height="48" style="margin-left:10px;" />
 </p>
 
 ---
@@ -64,7 +64,7 @@
 
 ### 📫 Connect with Me
 
-<p align="left">
+<p align="center">
   <a href="mailto:i'am?@gmail.com"><img src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/pangeran-droid"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://www.instagram.com/i'am?"><img src="https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
