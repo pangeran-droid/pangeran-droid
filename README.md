@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋, I'm Pangeran Droid</h1>
+<h1 align="center">Hi there 👋, I'm Pangeran</h1>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Always+Learning...&center=true&width=500&height=45">
 </p>
@@ -25,8 +25,8 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,html,css,js,bootstrap,python,git,github,vscode" alt="tech stack" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" title="CodeIgniter" width="48" height="48" style="margin-left:10px;" />
-  <img src="https://leafletjs.com/docs/images/logo.svg" title="Leaflet JS" width="48" height="48" style="margin-left:10px;" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" title="CodeIgniter" width="45" height="45" style="margin-left:10px;" />
+  <img src="https://camo.githubusercontent.com/21bde99de8822cfb3badba8e8fdf5e62630d2d14a2195edf0d7d542c0c4754cf/68747470733a2f2f7261776769742e636f6d2f4c6561666c65742f4c6561666c65742f6d61696e2f7372632f696d616765732f6c6f676f2e737667" title="Leaflet JS" width="45" height="45" style="margin-left:10px;" />
 </p>
 
 ---
