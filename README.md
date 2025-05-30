@@ -78,7 +78,7 @@
 
 ---
 
-### 🧠 Fun Fact
+### 🧠 Dev Logic
 
 ```bash
     dont();
