@@ -24,9 +24,17 @@
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,html,css,js,bootstrap,python,git,github,vscode" alt="tech stack" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" title="CodeIgniter" width="45" height="45" style="margin-left:10px;" />
-  <img src="https://camo.githubusercontent.com/21bde99de8822cfb3badba8e8fdf5e62630d2d14a2195edf0d7d542c0c4754cf/68747470733a2f2f7261776769742e636f6d2f4c6561666c65742f4c6561666c65742f6d61696e2f7372632f696d616765732f6c6f676f2e737667" title="Leaflet JS" width="45" height="45" style="margin-left:10px;" />
+  <img src="assets/logo-php.svg" alt="PHP" width="40" height="40" />
+  <img src="assets/logo-html.svg" alt="HTML" width="40" height="40" />
+  <img src="assets/logo-css.svg" alt="CSS" width="40" height="40" />
+  <img src="assets/logo-js.svg" alt="JavaScript" width="40" height="40" />
+  <img src="assets/logo-bootstrap.svg" alt="Bootstrap" width="40" height="40" />
+  <img src="assets/logo-python.svg" alt="Python" width="40" height="40" />
+  <img src="assets/logo-git.svg" alt="Git" width="40" height="40" />
+  <img src="assets/logo-github.svg" alt="GitHub" width="40" height="40" />
+  <img src="assets/logo-vscode.svg" alt="VS Code" width="40" height="40" />
+  <img src="assets/logo-ci.svg" alt="CodeIgniter" width="40" height="40" />
+  <img src="assets/logo-leaflet.svg" alt="Leaflet" width="40" height="40" />
 </p>
 
 ---
