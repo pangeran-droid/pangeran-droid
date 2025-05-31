@@ -29,7 +29,7 @@
   <img src="assets/css-logo.png" alt="CSS" width="40" height="40" />
   <img src="assets/js-logo.png" alt="JavaScript" width="40" height="40" />
   <img src="assets/bootstrap-logo.png" alt="Bootstrap" width="40" height="40" />
-  <img src="assets/python-logo.png" alt="Python" width="40" height="40" />
+  <img src="assets/py-logo.png" alt="Python" width="40" height="40" />
   <img src="assets/git-logo.png" alt="Git" width="40" height="40" />
   <img src="assets/github-logo.png" alt="GitHub" width="40" height="40" />
   <img src="assets/vscode-logo.png" alt="VS Code" width="40" height="40" />
