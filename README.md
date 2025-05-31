@@ -31,7 +31,7 @@
   <img src="assets/bootstrap-logo.png" alt="Bootstrap" width="40" height="40" />
   <img src="assets/py-logo.png" alt="Python" width="40" height="40" />
   <img src="assets/git-logo.png" alt="Git" width="40" height="40" />
-  <img src="assets/github-logo.png" alt="GitHub" width="40" height="40" />
+  <img src="assets/github-white-logo.png" alt="GitHub" width="40" height="40" />
   <img src="assets/vscode-logo.png" alt="VS Code" width="40" height="40" />
   <img src="assets/ci-logo.png" alt="CodeIgniter" width="40" height="40" />
   <img src="assets/leaflet-logo.png" alt="Leaflet" width="40" height="40" />
