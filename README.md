@@ -24,17 +24,17 @@
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="assets/php-logo.svg" alt="PHP" width="40" height="40" />
-  <img src="assets/html5-logo.svg" alt="HTML" width="40" height="40" />
-  <img src="assets/css3-logo.svg" alt="CSS" width="40" height="40" />
-  <img src="assets/js-logo.svg" alt="JavaScript" width="40" height="40" />
-  <img src="assets/bootstrap-5-1.svg" alt="Bootstrap" width="40" height="40" />
-  <img src="assets/python-svgrepo.svg" alt="Python" width="40" height="40" />
-  <img src="assets/git-icon-logo-svgrepo-com.svg" alt="Git" width="40" height="40" />
-  <img src="assets/github-logo.svg" alt="GitHub" width="40" height="40" />
-  <img src="assets/vscode-logo.svg" alt="VS Code" width="40" height="40" />
-  <img src="assets/codeigniter-logo.svg" alt="CodeIgniter" width="40" height="40" />
-  <img src="assets/leaflet-logo.svg" alt="Leaflet" width="40" height="40" />
+  <img src="assets/php-logo.png" alt="PHP" width="40" height="40" />
+  <img src="assets/html-logo.png" alt="HTML" width="40" height="40" />
+  <img src="assets/css-logo.png" alt="CSS" width="40" height="40" />
+  <img src="assets/js-logo.png" alt="JavaScript" width="40" height="40" />
+  <img src="assets/bootstrap-logo.png" alt="Bootstrap" width="40" height="40" />
+  <img src="assets/python-logo.png" alt="Python" width="40" height="40" />
+  <img src="assets/git-logo.png" alt="Git" width="40" height="40" />
+  <img src="assets/github-logo.png" alt="GitHub" width="40" height="40" />
+  <img src="assets/vscode-logo.png" alt="VS Code" width="40" height="40" />
+  <img src="assets/ci-logo.png" alt="CodeIgniter" width="40" height="40" />
+  <img src="assets/leaflet-logo.png" alt="Leaflet" width="40" height="40" />
 </p>
 
 ---
