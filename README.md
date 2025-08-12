@@ -33,6 +33,7 @@
   <img src="assets/git-logo.png" alt="Git" width="45" height="45" />
   <img src="assets/github-white-logo.png" alt="GitHub" width="45" height="45" />
   <img src="assets/vscode-logo.png" alt="VS Code" width="45" height="45" />
+  <img src="assets/laravel-logo.png" alt="Laravel" width="45" height="45" />
   <img src="assets/ci-logo.png" alt="CodeIgniter" width="45" height="45" />
   <img src="assets/leaflet-logo.png" alt="Leaflet" width="45" height="45" />
 </p>
