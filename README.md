@@ -24,17 +24,18 @@
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="assets/php-logo.png" alt="PHP" width="45" height="45" />
+  <img src="assets/kali.png" alt="Kali Linux" width="45" height="45" />
+  <img src="assets/github-white-logo.png" alt="GitHub" width="45" height="45" />
+  <img src="assets/git-logo.png" alt="Git" width="45" height="45" />
+  <img src="assets/vscode-logo.png" alt="VS Code" width="45" height="45" />
   <img src="assets/html-logo.png" alt="HTML" width="45" height="45" />
   <img src="assets/css-logo.png" alt="CSS" width="45" height="45" />
   <img src="assets/js-logo.png" alt="JavaScript" width="45" height="45" />
   <img src="assets/bootstrap-logo.png" alt="Bootstrap" width="45" height="45" />
-  <img src="assets/py-logo.png" alt="Python" width="45" height="45" />
-  <img src="assets/git-logo.png" alt="Git" width="45" height="45" />
-  <img src="assets/github-white-logo.png" alt="GitHub" width="45" height="45" />
-  <img src="assets/vscode-logo.png" alt="VS Code" width="45" height="45" />
+  <img src="assets/php-logo.png" alt="PHP" width="45" height="45" />
   <img src="assets/laravel-logo.png" alt="Laravel" width="45" height="45" />
   <img src="assets/ci-logo.png" alt="CodeIgniter" width="45" height="45" />
+  <img src="assets/py-logo.png" alt="Python" width="45" height="45" />
   <img src="assets/leaflet-logo.png" alt="Leaflet" width="45" height="45" />
 </p>
 
