@@ -7,14 +7,14 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://i.giphy.com/QXwtfadqo7wbfmT46H.gif"
+      srcset="https://i.giphy.com/8DvRrE3heEFcY95Jih.gif"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://i.giphy.com/QXwtfadqo7wbfmT46H.gif"
+      srcset="https://i.giphy.com/8DvRrE3heEFcY95Jih.gif"
     />
     <img
-      src="https://i.giphy.com/QXwtfadqo7wbfmT46H.gif"
+      src="https://i.giphy.com/8DvRrE3heEFcY95Jih.gif"
       alt="Coding Animation"
       width="100%"
     />
