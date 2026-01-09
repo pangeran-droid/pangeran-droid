@@ -1,7 +1,7 @@
 <h1 align="center">Hi there 👋, I'm Pangeran</h1>
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&pause=800&color=00FF41&center=true&vCenter=true&width=520&height=45&lines=>+sudo+apt+install+knowledge;>+accessing+mainframe...;>+Always+Learning..."
+    src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&pause=800&color=00FF41&center=true&vCenter=true&width=520&height=45&lines=>+sudo+apt+install+brain.exe;>+coffee%2B%2B+%26%26+bug--;>+still+learning...+send+help"
   />
 </p>
 
