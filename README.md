@@ -45,14 +45,35 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=pangeran-droid&show_icons=true&theme=tokyonight">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=pangeran-droid&show_icons=true&theme=default">
-    <img src="https://github-readme-stats.vercel.app/api?username=pangeran-droid&show_icons=true" height="165" />
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid&theme=tokyonight"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid&theme=default"
+    />
+    <img
+      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid"
+      height="165"
+      alt="GitHub Stats"
+    />
   </picture>
+
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=pangeran-droid&layout=compact&theme=tokyonight">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=pangeran-droid&layout=compact&theme=default">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pangeran-droid&layout=compact" height="165" />
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pangeran-droid&theme=tokyonight"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pangeran-droid&theme=default"
+    />
+    <img
+      src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pangeran-droid"
+      height="165"
+      alt="Top Languages"
+    />
   </picture>
 </p>
 
