@@ -1,6 +1,8 @@
 <h1 align="center">Hi there 👋, I'm Pangeran</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Always+Learning...&center=true&width=500&height=45">
+  <img
+    src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&pause=800&color=00FF41&center=true&vCenter=true&width=520&height=45&lines=>+sudo+apt+install+knowledge;>+accessing+mainframe...;>+Always+Learning..."
+  />
 </p>
 
 <p align="center">
@@ -119,8 +121,8 @@
 
 ### 🧠 Dev Logic
 
-```bash
+```text
     dont();
     forget();
-    to sleep();
+    sleep();
 ```
