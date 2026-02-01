@@ -18,7 +18,7 @@
     <img
       src="https://i.giphy.com/8DvRrE3heEFcY95Jih.gif"
       alt="Coding Animation"
-      width="100%"
+      style="max-width: 720px; width: 100%; height: auto;"
     />
   </picture>
 </p>
