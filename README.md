@@ -110,7 +110,7 @@
   <a href="https://github.com/pangeran-droid"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/#"><img src="https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://wa.me/#"><img src="https://img.shields.io/badge/whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-  <a href="https://t.me/#"><img src="https://img.shields.io/badge/telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+  <a href="https://t.me/pangeran1337"><img src="https://img.shields.io/badge/telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
   <a href="https://www.instagram.com/#"><img src="https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
   <a href="https://www.tiktok.com/@#"><img src="https://img.shields.io/badge/tiktok-000000?style=for-the-badge&logo=tiktok&logoColor=white" /></a>
   <a href="https://www.youtube.com/@#"><img src="https://img.shields.io/badge/youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
