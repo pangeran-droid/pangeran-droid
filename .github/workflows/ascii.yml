@@ -21,6 +21,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate ASCII Profile Card
         uses: hu553in/ascii-profile-card@v1
 
@@ -47,27 +50,20 @@ jobs:
 
                 - { type: blank }
 
-                - { type: section, title: system }
-                - { type: kv, key: user, value: "pangeran-droid" }
-                - { type: kv, key: os, value: "github linux x86_64" }
-                - { type: kv, key: shell, value: "bash" }
+                - { type: section, title: about me }
+                - { type: kv, key: name, value: "pangeran" }
+                - { type: kv, key: role, value: "informatics student" }
+                - { type: kv, key: focus, value: "web development & security researcher" }
+                - { type: kv, key: mindset, value: "learn, build, break, improve" }
                 - { type: kv, key: uptime, value: "{uptime}" }
 
                 - { type: blank }
 
-                - { type: section, title: profile }
-                - { type: kv, key: name, value: "pangeran" }
-                - { type: kv, key: role, value: "informatics student" }
-                - { type: kv, key: focus, value: "web development & software engineering" }
-                - { type: kv, key: mindset, value: "learn, build, break, improve" }
-
-                - { type: blank }
-
                 - { type: section, title: tech stack }
-                - { type: kv, key: frontend, value: "html, css, javascript, bootstrap" }
+                - { type: kv, key: frontend, value: "html, css, javascript" }
                 - { type: kv, key: backend, value: "php, laravel, codeigniter" }
-                - { type: kv, key: scripting, value: "python, javascript" }
-                - { type: kv, key: database, value: "mysql, postgresql" }
+                - { type: kv, key: scripting, value: "python" }
+                - { type: kv, key: database, value: "mysql" }
                 - { type: kv, key: environment, value: "linux, git, github, vscode" }
 
                 - { type: blank }
