@@ -46,7 +46,7 @@ jobs:
               lines:
 
 
-                - { type: header, text: "pangeran@github:~$" }
+                - { type: header, text: "pangeran-droid@github:~$" }
 
                 - { type: blank }
 
