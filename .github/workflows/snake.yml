@@ -1,4 +1,4 @@
-name: generate animation
+name: Generate snake animation
 
 on:
   # run automatically every 24 hours
@@ -18,7 +18,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
 
     steps:
       - name: generate github-contribution-grid-snake.svg
