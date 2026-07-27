@@ -85,6 +85,6 @@ jobs:
                 - { type: kv, key: repositories, value: "{repos}" }
                 - { type: kv, key: stars, value: "{stars}" }
                 - { type: kv, key: followers, value: "{followers}" }
-                - { type: kv, key: commits, value: "{contributions}" }
-                - { type: kv, key: code, value: "{loc} ({locAdded}+ / {locDeleted}-)" }
+                - { type: kv, key: contributions, value: "{contributions}" }
+                - { type: kv, key: loc, value: "{loc} ({locAdded}+ / {locDeleted}-)" }
                 - { type: kv, key: languages, value: "{topLanguages}" }
