@@ -103,7 +103,7 @@
 
 ---
 
-### 🐍 Pacman Contribution Animation
+### Pacman Contribution Animation
 
 <p align="center">
   <picture data-importer="pacman">
