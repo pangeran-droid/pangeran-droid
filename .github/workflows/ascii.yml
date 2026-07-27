@@ -45,43 +45,54 @@ jobs:
 
               lines:
 
-
-                - { type: header, text: "pangeran-droid@github:~$" }
+                - { type: header, text: "pangeran-droid@github:~$ neofetch" }
 
                 - { type: blank }
 
-                - { type: section, title: about me }
+
+                - { type: section, title: about }
+
                 - { type: kv, key: name, value: "pangeran" }
                 - { type: kv, key: role, value: "informatics student" }
-                - { type: kv, key: focus, value: "web development & security researcher" }
-                - { type: kv, key: mindset, value: "learn, build, break, improve" }
+                - { type: kv, key: focus, value: "web development & cybersecurity" }
                 - { type: kv, key: uptime, value: "{uptime}" }
+
 
                 - { type: blank }
 
-                - { type: section, title: tech stack }
+
+                - { type: section, title: stack }
+
                 - { type: kv, key: frontend, value: "html, css, javascript" }
                 - { type: kv, key: backend, value: "php, laravel, codeigniter" }
                 - { type: kv, key: scripting, value: "python" }
                 - { type: kv, key: database, value: "mysql" }
                 - { type: kv, key: environment, value: "linux, git, github, vscode" }
 
+
                 - { type: blank }
+
 
                 - { type: section, title: interests }
-                - { type: kv, key: security, value: "cyber security & ethical hacking" }
-                - { type: kv, key: open_source, value: "building and learning" }
-                - { type: kv, key: hobbies, value: "coding, experimenting, automation" }
+
+                - { type: kv, key: security, value: "cybersecurity" }
+                - { type: kv, key: projects, value: "web apps & automation" }
+
 
                 - { type: blank }
 
+
                 - { type: section, title: contact }
+
                 - { type: kv, key: github, value: "github.com/pangeran-droid" }
                 - { type: kv, key: telegram, value: "t.me/pangeran1337" }
 
+
                 - { type: blank }
 
+
                 - { type: section, title: github stats }
+
                 - { type: kv, key: repositories, value: "{repos}" }
                 - { type: kv, key: stars, value: "{stars}" }
                 - { type: kv, key: followers, value: "{followers}" }
