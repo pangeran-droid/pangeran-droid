@@ -55,7 +55,7 @@ jobs:
 
           token: ${{ secrets.ASCII_PROFILE_CARD_PAT }}
 
-          branch: ascii-profile-card-output
+          branch: ascii-output
 
 
           config: |
