@@ -21,9 +21,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Generate ASCII Profile Card
         uses: hu553in/ascii-profile-card@v1
 
