@@ -4,72 +4,51 @@ on:
   push:
     branches:
       - main
-
+  pull_request:
   schedule:
     - cron: '47 3 * * *'
-
   workflow_dispatch:
 
-
 jobs:
-
   check:
     runs-on: ubuntu-latest
-
     permissions:
       contents: read
-
     steps:
-
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
-
       - uses: oven-sh/setup-bun@v2
-
       - run: make check
 
-
-
   cards:
-
     needs: check
-
     if: github.event_name != 'pull_request'
-
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
-
     steps:
-
-      - uses: actions/checkout@v4
-
-
-      - name: Generate ASCII Profile Card
-
-        uses: hu553in/ascii-profile-card@v1
-
+      - uses: Platane/snk/svg-only@v3
         with:
-
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: snake-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: hu553in/ascii-profile-card@v1
+        with:
           token: ${{ secrets.ASCII_PROFILE_CARD_PAT }}
-
           branch: ascii-output
-
-
           config: |
-
             login: pangeran-droid
-
-            uptimeStart: 2024-01-01
-
-
+            uptimeStart: 2017-09-01
             card:
-
               lowercase: true
-
 
               lines:
 
