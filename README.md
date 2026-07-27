@@ -53,18 +53,27 @@
 
 ### 📊 GitHub Stats
 
+<!-- <p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats-dark.svg">
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid&theme=tokyonight"
+    />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg">
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid&theme=default"
+    />
     <img
-      src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid"
       height="165"
-      alt="GitHub Stats">
-  </picture>
+      alt="GitHub Stats"
+    />
+  </picture> -->
+
+<div data-importer="stats" align="center">
+  <img src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
   <picture>
     <source
@@ -89,19 +98,12 @@
 
 <p align="center">
   <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats-dark.svg">
-
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg">
-
-    <img
-      src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg"
-      height="165"
-      alt="GitHub Stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/snake-output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/snake-output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/snake-output/github-contribution-grid-snake.svg">
   </picture>
+  <br>
+  <sub><i>Generated with <a href="https://github.com/Platane/snk">Platane/snk</a></i></sub>
 </p>
 
 ---
