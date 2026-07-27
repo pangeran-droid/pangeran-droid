@@ -1,0 +1,125 @@
+name: Generate ASCII
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+
+  schedule:
+    - cron: '47 3 * * *'
+
+  workflow_dispatch:
+
+
+jobs:
+
+  check:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: oven-sh/setup-bun@v2
+
+      - run: make check
+
+
+
+  cards:
+
+    needs: check
+
+    if: github.event_name != 'pull_request'
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+
+    steps:
+
+      - name: Generate ASCII Profile Card
+
+        uses: hu553in/ascii-profile-card@v1
+
+        with:
+
+          token: ${{ secrets.ASCII_PROFILE_CARD_PAT }}
+
+          branch: ascii-profile-card-output
+
+
+          config: |
+
+            login: pangeran-droid
+
+            uptimeStart: 2024-01-01
+
+
+            card:
+
+              lowercase: true
+
+
+              lines:
+
+                - { type: header, text: "pangeran droid" }
+
+
+                - { type: kv, key: role, value: "informatics student" }
+
+                - { type: kv, key: focus, value: "web development & learning" }
+
+
+                - { type: blank }
+
+
+                - { type: kv, key: stack.frontend, value: "html, css, javascript, bootstrap" }
+
+                - { type: kv, key: stack.backend, value: "php, laravel, codeigniter" }
+
+                - { type: kv, key: stack.language, value: "python, javascript" }
+
+                - { type: kv, key: stack.tools, value: "linux, git, github, vscode" }
+
+
+                - { type: kv, key: interests, value: "cyber security, open source, coding" }
+
+
+                - { type: blank }
+
+
+                - { type: section, title: contact }
+
+
+                - { type: kv, key: github, value: "github.com/pangeran-droid" }
+
+                - { type: kv, key: telegram, value: "t.me/pangeran1337" }
+
+
+                - { type: blank }
+
+
+                - { type: section, title: github stats }
+
+
+                - { type: kv, key: repos, value: "{repos}" }
+
+                - { type: kv, key: stars, value: "{stars}" }
+
+                - { type: kv, key: followers, value: "{followers}" }
+
+                - { type: kv, key: contributions, value: "{contributions} (all time)" }
+
+                - { type: kv, key: lines of code, value: "{loc} ({locAdded}, {locDeleted})" }
+
+                - { type: kv, key: top languages, value: "{topLanguages}" }
