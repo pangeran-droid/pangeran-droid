@@ -53,21 +53,17 @@
 
 ### 📊 GitHub Stats
 
-<p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid&theme=tokyonight"
-    />
+      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats-dark.svg">
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid&theme=default"
-    />
+      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg">
     <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pangeran-droid"
+      src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg"
       height="165"
-      alt="GitHub Stats"
-    />
+      alt="GitHub Stats">
   </picture>
 
   <picture>
