@@ -14,7 +14,7 @@ srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/ascii-ou
 
 <img
 alt="ASCII profile card"
-src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/ascii-output/light_mode.svg"
+src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/ascii-output/dark_mode.svg"
 />
 
 </picture>
