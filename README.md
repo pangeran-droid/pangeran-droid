@@ -1,4 +1,4 @@
-# Pangeran-droid
+<h1 align="center">Hi there 👋, I'm Pangeran</h1>
 
 <p align="center">
   <img
