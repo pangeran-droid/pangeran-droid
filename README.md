@@ -89,12 +89,19 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/snake-output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/snake-output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/snake-output/github-contribution-grid-snake.svg">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats-dark.svg">
+
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg">
+
+    <img
+      src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg"
+      height="165"
+      alt="GitHub Stats">
   </picture>
-  <br>
-  <sub><i>Generated with <a href="https://github.com/Platane/snk">Platane/snk</a></i></sub>
 </p>
 
 ---

@@ -21,16 +21,25 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: generate stats.svg
+      # Light
+      - name: Generate light stats
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&theme=default&hide_border=false
           path: dist/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Dark
+      - name: Generate dark stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=false
+          path: dist/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: push stats.svg to the output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: stats-output
