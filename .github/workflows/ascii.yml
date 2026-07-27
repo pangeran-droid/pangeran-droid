@@ -32,42 +32,37 @@ jobs:
       - run: make check
 
 
+cards:
+  needs: check
 
-  cards:
+  if: github.event_name != 'pull_request'
 
-    needs: check
+  runs-on: ubuntu-latest
 
-    if: github.event_name != 'pull_request'
+  permissions:
+    contents: write
 
-    runs-on: ubuntu-latest
+  steps:
 
-    permissions:
-      contents: write
-
-
-    steps:
-
-      - name: Generate ASCII Profile Card
-
-        uses: hu553in/ascii-profile-card@v1
-
-        with:
-
-          token: ${{ secrets.ASCII_PROFILE_CARD_PAT }}
-
-          branch: ascii-output
+    - uses: actions/checkout@v4
 
 
-          config: |
+    - name: Generate ASCII Profile Card
 
-            login: pangeran-droid
+      uses: hu553in/ascii-profile-card@v1
 
-            uptimeStart: 2024-01-01
+      with:
 
+        token: ${{ secrets.ASCII_PROFILE_CARD_PAT }}
 
-            card:
+        branch: ascii-output
 
-              lowercase: true
+        config: |
+          login: pangeran-droid
+          uptimeStart: 2024-01-01
+
+          card:
+            lowercase: true
 
 
               lines:
