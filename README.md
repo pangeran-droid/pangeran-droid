@@ -53,7 +53,7 @@
 
 ### 📊 GitHub Stats
 
-<!-- <p align="center">
+<p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -68,12 +68,7 @@
       height="165"
       alt="GitHub Stats"
     />
-  </picture> -->
-
-<div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/stats-output/stats.svg" height="150" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/languages-output/languages.svg" height="150" alt="languages graph"  />
-</div>
+  </picture>
 
   <picture>
     <source
@@ -92,7 +87,7 @@
   </picture>
 </p>
 
----
+<!-- ---
 
 ### 🐍 Snake Contribution Animation
 
@@ -104,7 +99,7 @@
   </picture>
   <br>
   <sub><i>Generated with <a href="https://github.com/Platane/snk">Platane/snk</a></i></sub>
-</p>
+</p> -->
 
 ---
 
