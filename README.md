@@ -4,18 +4,16 @@
 </div>
 
 <p align="center">
+  <img src="./profile-scan.svg" alt="animated ascii profile card" width="100%" />
+</p>
+
+<p align="center">
   <a href="https://github.com/pangeran-droid">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://t.me/pangeran1337">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="./profile-scan.svg" alt="animated ascii profile card" width="100%" />
 </p>
 
 <br>
