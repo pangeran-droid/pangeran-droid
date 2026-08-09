@@ -1,29 +1,30 @@
-<h1 align="center">Hi there 👋, I'm Pangeran</h1>
+<h1 align="center">pangeran</h1>
+<h4 align="center">pangeran-droid</h4>
 
 <p align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=16&pause=800&color=00FF41&center=true&vCenter=true&width=1000&height=40&lines=>+i+am+a+web+developer+focused+on+web+application+development,+with+an+interest+in+cybersecurity."
-  />
+Informatics student focused on web development & cybersecurity.
 </p>
 
-<div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/ascii-output/dark_mode.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/ascii-output/light_mode.svg"
-    />
-    <img
-      alt="ASCII profile card"
-      src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/ascii-output/dark_mode.svg"
-    />
-  </picture>
-</div>
+<p align="center">
+  <a href="https://github.com/pangeran-droid">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://t.me/pangeran1337">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+</p>
 
 <br>
+
+<p align="center">
+  <img src="./profile-scan.svg" alt="animated ascii profile card" width="100%" />
+</p>
+
+<br>
+
+<p align="center">
+  <sub>This card refreshes automatically every day via GitHub Actions — live stats, no manual edits needed.</sub>
+</p>
 
 <div align="center">
 

@@ -1,0 +1,313 @@
+<svg width="912" height="728.8" viewBox="0 0 912 728.8" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .frame { fill: none; stroke: #22e08a; stroke-width: 1.6; opacity: 0.7; }
+      .frame2 { fill: none; stroke: #22e08a; stroke-width: 1; opacity: 0.4; }
+      .header { font-family: 'Courier New', monospace; font-size: 17px; font-weight: bold; fill: #7ff5c0; }
+      .prompt { font-family: 'Courier New', monospace; font-size: 17px; fill: #39ffb0; }
+      .section { font-family: 'Courier New', monospace; font-size: 13px; fill: #39ffb0; letter-spacing: 2px; text-transform: uppercase; }
+      .rule { stroke: #1fdf87; stroke-width: 1; opacity: 0.35; }
+      .dot { fill: #39ffb0; animation-name: pulse; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+      .label { font-family: 'Courier New', monospace; font-size: 13px; fill: #57c99a; }
+      .value { font-family: 'Courier New', monospace; font-size: 13px; fill: #eafff5; }
+      .scanline { fill: url(#scanGrad); animation: scan 3.6s linear infinite; }
+      .typewriter { opacity: 0; animation-name: reveal; animation-duration: 0.4s; animation-fill-mode: forwards; animation-timing-function: steps(1); }
+      .cursor { fill: #39ffb0; animation: blink 1s steps(1) infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 0.28; } 50% { opacity: 1; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes scan {
+        0% { transform: translateY(0px); opacity: 0; }
+        10% { opacity: 0.85; }
+        90% { opacity: 0.85; }
+        100% { transform: translateY(688.8px); opacity: 0; }
+      }
+      @keyframes reveal { to { opacity: 1; } }
+      @keyframes borderGlow { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.9; } }
+      .glow { animation: borderGlow 3.2s ease-in-out infinite; }
+    </style>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39ffb0" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39ffb0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#39ffb0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect class="frame glow" x="6" y="6" width="900" height="716.8" rx="14" fill="none"/>
+
+  <text x="30" y="64.0" class="prompt">$ <tspan class="header">pangeran-droid@github:~$ neofetch</tspan><tspan class="cursor">_</tspan></text>
+  <line x1="30" y1="72" x2="882" y2="72" class="rule" />
+
+  <rect class="frame2" x="30" y="86" width="352" height="612.8" rx="10"/>
+  <rect x="182.0" y="272.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:0.65s; animation-duration:2.45s" />
+      <rect x="206.0" y="272.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:2.04s; animation-duration:3.35s" />
+      <rect x="214.0" y="272.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.33; animation-delay:2.27s; animation-duration:3.34s" />
+      <rect x="174.0" y="280.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:1.37s; animation-duration:2.53s" />
+      <rect x="198.0" y="280.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:0.11s; animation-duration:2.23s" />
+      <rect x="206.0" y="280.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:1.89s; animation-duration:3.39s" />
+      <rect x="214.0" y="280.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.93s; animation-duration:3.19s" />
+      <rect x="222.0" y="280.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.36s; animation-duration:2.43s" />
+      <rect x="166.0" y="288.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.27; animation-delay:0.15s; animation-duration:2.33s" />
+      <rect x="206.0" y="288.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.21; animation-delay:1.61s; animation-duration:3.16s" />
+      <rect x="214.0" y="288.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.64s; animation-duration:3.38s" />
+      <rect x="222.0" y="288.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.78s; animation-duration:2.25s" />
+      <rect x="230.0" y="288.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.87s; animation-duration:3.24s" />
+      <rect x="166.0" y="296.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:0.25s; animation-duration:2.95s" />
+      <rect x="206.0" y="296.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:1.74s; animation-duration:2.3s" />
+      <rect x="214.0" y="296.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.6s; animation-duration:2.2s" />
+      <rect x="222.0" y="296.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.64s; animation-duration:2.82s" />
+      <rect x="230.0" y="296.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.12s; animation-duration:2.42s" />
+      <rect x="238.0" y="296.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:1.78s; animation-duration:3.16s" />
+      <rect x="158.0" y="304.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:0.97s; animation-duration:2.73s" />
+      <rect x="190.0" y="304.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:0.48s; animation-duration:3.39s" />
+      <rect x="198.0" y="304.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.27; animation-delay:2.43s; animation-duration:3.26s" />
+      <rect x="206.0" y="304.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.53s; animation-duration:2.66s" />
+      <rect x="214.0" y="304.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.47s; animation-duration:2.48s" />
+      <rect x="222.0" y="304.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.86s; animation-duration:2.38s" />
+      <rect x="230.0" y="304.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.37s; animation-duration:3.22s" />
+      <rect x="238.0" y="304.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.57s; animation-duration:2.82s" />
+      <rect x="158.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:0.41s; animation-duration:2.7s" />
+      <rect x="182.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:0.61s; animation-duration:3.28s" />
+      <rect x="190.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.27; animation-delay:0.66s; animation-duration:2.74s" />
+      <rect x="198.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.46s; animation-duration:2.58s" />
+      <rect x="206.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:2.2s; animation-duration:3.28s" />
+      <rect x="214.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.98s; animation-duration:2.73s" />
+      <rect x="222.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.69s; animation-duration:2.89s" />
+      <rect x="230.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.44s; animation-duration:3.21s" />
+      <rect x="238.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.45s; animation-duration:2.74s" />
+      <rect x="246.0" y="312.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:1.48s; animation-duration:2.47s" />
+      <rect x="150.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:2.02s; animation-duration:2.2s" />
+      <rect x="158.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.18; animation-delay:1.12s; animation-duration:3.09s" />
+      <rect x="166.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.21; animation-delay:2.41s; animation-duration:2.96s" />
+      <rect x="190.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.23; animation-delay:0.9s; animation-duration:2.91s" />
+      <rect x="198.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.22; animation-delay:1.49s; animation-duration:3.05s" />
+      <rect x="206.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.18; animation-delay:2.58s; animation-duration:2.71s" />
+      <rect x="214.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:1.59s; animation-duration:2.28s" />
+      <rect x="222.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.35s; animation-duration:3.34s" />
+      <rect x="230.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.92s; animation-duration:2.58s" />
+      <rect x="238.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.32s; animation-duration:3.0s" />
+      <rect x="246.0" y="320.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.38s; animation-duration:2.77s" />
+      <rect x="150.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:1.82s; animation-duration:2.57s" />
+      <rect x="158.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.53s; animation-duration:2.83s" />
+      <rect x="166.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.18; animation-delay:2.56s; animation-duration:2.51s" />
+      <rect x="174.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:0.98s; animation-duration:2.31s" />
+      <rect x="182.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:0.03s; animation-duration:3.01s" />
+      <rect x="190.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:1.96s; animation-duration:2.3s" />
+      <rect x="230.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:1.52s; animation-duration:3.13s" />
+      <rect x="238.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.16s; animation-duration:3.04s" />
+      <rect x="246.0" y="328.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.5s; animation-duration:2.35s" />
+      <rect x="150.0" y="336.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.82s; animation-duration:2.24s" />
+      <rect x="158.0" y="336.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.15s; animation-duration:2.33s" />
+      <rect x="238.0" y="336.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:2.15s; animation-duration:3.38s" />
+      <rect x="246.0" y="336.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.32s; animation-duration:2.91s" />
+      <rect x="254.0" y="336.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.17; animation-delay:2.48s; animation-duration:2.56s" />
+      <rect x="142.0" y="344.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.21; animation-delay:0.66s; animation-duration:2.61s" />
+      <rect x="150.0" y="344.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:2.2s; animation-duration:3.19s" />
+      <rect x="254.0" y="344.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.22s; animation-duration:2.81s" />
+      <rect x="262.0" y="344.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:2.33s; animation-duration:3.11s" />
+      <rect x="142.0" y="352.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.91s; animation-duration:2.46s" />
+      <rect x="254.0" y="352.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.19; animation-delay:1.05s; animation-duration:2.57s" />
+      <rect x="262.0" y="352.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:0.06s; animation-duration:3.24s" />
+      <rect x="142.0" y="360.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.19; animation-delay:2.33s; animation-duration:2.86s" />
+      <rect x="150.0" y="360.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.33; animation-delay:1.12s; animation-duration:2.43s" />
+      <rect x="254.0" y="360.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.21; animation-delay:2.46s; animation-duration:3.12s" />
+      <rect x="150.0" y="368.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.04s; animation-duration:2.23s" />
+      <rect x="246.0" y="368.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:1.8s; animation-duration:2.38s" />
+      <rect x="254.0" y="368.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:2.39s; animation-duration:3.24s" />
+      <rect x="134.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.18; animation-delay:1.85s; animation-duration:2.6s" />
+      <rect x="142.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.37s; animation-duration:2.75s" />
+      <rect x="150.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.33s; animation-duration:3.27s" />
+      <rect x="158.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.78s; animation-duration:3.23s" />
+      <rect x="238.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:2.26s; animation-duration:3.19s" />
+      <rect x="246.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.95s; animation-duration:3.08s" />
+      <rect x="254.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.31s; animation-duration:3.35s" />
+      <rect x="262.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.37s; animation-duration:2.92s" />
+      <rect x="270.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.27; animation-delay:1.66s; animation-duration:3.11s" />
+      <rect x="278.0" y="376.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.24; animation-delay:1.03s; animation-duration:2.83s" />
+      <rect x="126.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.77s; animation-duration:3.17s" />
+      <rect x="134.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:1.28s; animation-duration:3.14s" />
+      <rect x="142.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.37s; animation-duration:3.27s" />
+      <rect x="150.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.82s; animation-duration:3.15s" />
+      <rect x="158.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.66s; animation-duration:3.08s" />
+      <rect x="166.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.91s; animation-duration:2.71s" />
+      <rect x="238.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.15s; animation-duration:2.87s" />
+      <rect x="246.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:2.01s; animation-duration:3.37s" />
+      <rect x="254.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.19; animation-delay:2.26s; animation-duration:3.33s" />
+      <rect x="262.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.4s; animation-duration:3.3s" />
+      <rect x="270.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.44s; animation-duration:2.4s" />
+      <rect x="278.0" y="384.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.06s; animation-duration:2.74s" />
+      <rect x="118.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:1.39s; animation-duration:2.36s" />
+      <rect x="126.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.18; animation-delay:2.35s; animation-duration:2.64s" />
+      <rect x="158.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.22; animation-delay:1.44s; animation-duration:2.77s" />
+      <rect x="166.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.2; animation-delay:1.1s; animation-duration:2.91s" />
+      <rect x="174.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:0.37s; animation-duration:2.38s" />
+      <rect x="230.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:2.5s; animation-duration:3.31s" />
+      <rect x="238.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:1.16s; animation-duration:2.85s" />
+      <rect x="270.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.17; animation-delay:0.07s; animation-duration:2.81s" />
+      <rect x="278.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.74s; animation-duration:3.06s" />
+      <rect x="286.0" y="392.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.12s; animation-duration:2.63s" />
+      <rect x="118.0" y="400.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.29s; animation-duration:2.95s" />
+      <rect x="126.0" y="400.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:1.18s; animation-duration:3.37s" />
+      <rect x="174.0" y="400.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.24; animation-delay:1.37s; animation-duration:2.96s" />
+      <rect x="262.0" y="400.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:1.12s; animation-duration:2.67s" />
+      <rect x="270.0" y="400.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:1.8s; animation-duration:2.98s" />
+      <rect x="286.0" y="400.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.98s; animation-duration:2.98s" />
+      <rect x="110.0" y="408.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.64s; animation-duration:2.87s" />
+      <rect x="118.0" y="408.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:1.06s; animation-duration:2.74s" />
+      <rect x="286.0" y="408.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:1.86s; animation-duration:2.63s" />
+      <rect x="294.0" y="408.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.75s; animation-duration:3.05s" />
+      <rect x="102.0" y="416.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.56s; animation-duration:3.13s" />
+      <rect x="110.0" y="416.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:1.38s; animation-duration:3.33s" />
+      <rect x="286.0" y="416.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:0.81s; animation-duration:2.55s" />
+      <rect x="294.0" y="416.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.36s; animation-duration:3.27s" />
+      <rect x="302.0" y="416.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.21; animation-delay:2.07s; animation-duration:2.44s" />
+      <rect x="94.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.63s; animation-duration:2.85s" />
+      <rect x="102.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.23; animation-delay:0.8s; animation-duration:2.86s" />
+      <rect x="166.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.24; animation-delay:1.13s; animation-duration:2.5s" />
+      <rect x="174.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:0.71s; animation-duration:2.67s" />
+      <rect x="182.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.27; animation-delay:2.29s; animation-duration:2.96s" />
+      <rect x="190.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.81s; animation-duration:3.33s" />
+      <rect x="198.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:1.14s; animation-duration:2.88s" />
+      <rect x="206.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:1.81s; animation-duration:3.37s" />
+      <rect x="214.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:2.3s; animation-duration:2.91s" />
+      <rect x="222.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:2.07s; animation-duration:3.12s" />
+      <rect x="230.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:1.52s; animation-duration:2.8s" />
+      <rect x="238.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:1.88s; animation-duration:3.3s" />
+      <rect x="246.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.33; animation-delay:0.35s; animation-duration:2.98s" />
+      <rect x="254.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.33; animation-delay:1.36s; animation-duration:2.92s" />
+      <rect x="262.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:2.42s; animation-duration:3.08s" />
+      <rect x="294.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.16; animation-delay:0.72s; animation-duration:2.8s" />
+      <rect x="302.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.32s; animation-duration:2.92s" />
+      <rect x="310.0" y="424.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:0.96s; animation-duration:3.1s" />
+      <rect x="86.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:0.62s; animation-duration:2.44s" />
+      <rect x="94.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.4s; animation-duration:2.52s" />
+      <rect x="102.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:0.04s; animation-duration:2.77s" />
+      <rect x="134.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:2.23s; animation-duration:3.31s" />
+      <rect x="142.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.28s; animation-duration:2.51s" />
+      <rect x="150.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.21; animation-delay:0.96s; animation-duration:2.28s" />
+      <rect x="158.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.18; animation-delay:1.24s; animation-duration:3.02s" />
+      <rect x="166.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.18; animation-delay:1.94s; animation-duration:3.22s" />
+      <rect x="174.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.18; animation-delay:2.01s; animation-duration:2.57s" />
+      <rect x="182.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.22; animation-delay:1.19s; animation-duration:2.65s" />
+      <rect x="190.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.19; animation-delay:2.2s; animation-duration:3.14s" />
+      <rect x="198.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.16; animation-delay:0.68s; animation-duration:2.79s" />
+      <rect x="206.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.24; animation-delay:1.32s; animation-duration:2.38s" />
+      <rect x="214.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.09s; animation-duration:3.2s" />
+      <rect x="222.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:0.23s; animation-duration:2.98s" />
+      <rect x="230.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:0.81s; animation-duration:3.08s" />
+      <rect x="238.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:1.68s; animation-duration:2.76s" />
+      <rect x="246.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.33; animation-delay:0.89s; animation-duration:3.3s" />
+      <rect x="254.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.33; animation-delay:1.14s; animation-duration:2.76s" />
+      <rect x="262.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.27; animation-delay:0.62s; animation-duration:2.72s" />
+      <rect x="270.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:2.29s; animation-duration:2.33s" />
+      <rect x="302.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:2.25s; animation-duration:2.27s" />
+      <rect x="310.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.83s; animation-duration:2.6s" />
+      <rect x="318.0" y="432.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:2.27s; animation-duration:3.29s" />
+      <rect x="78.0" y="440.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:1.29s; animation-duration:2.98s" />
+      <rect x="86.0" y="440.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.17s; animation-duration:2.4s" />
+      <rect x="94.0" y="440.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.67s; animation-duration:3.38s" />
+      <rect x="102.0" y="440.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:0.66s; animation-duration:2.35s" />
+      <rect x="134.0" y="440.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:1.21s; animation-duration:3.05s" />
+      <rect x="270.0" y="440.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.33; animation-delay:1.91s; animation-duration:2.43s" />
+      <rect x="310.0" y="440.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:1.95s; animation-duration:2.4s" />
+      <rect x="318.0" y="440.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.41s; animation-duration:2.92s" />
+      <rect x="70.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.27; animation-delay:2.53s; animation-duration:2.55s" />
+      <rect x="78.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.31s; animation-duration:3.01s" />
+      <rect x="86.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.06s; animation-duration:2.67s" />
+      <rect x="94.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.19; animation-delay:2.3s; animation-duration:2.94s" />
+      <rect x="134.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:0.91s; animation-duration:2.92s" />
+      <rect x="270.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.32; animation-delay:0.9s; animation-duration:3.37s" />
+      <rect x="310.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.2; animation-delay:2.34s; animation-duration:2.28s" />
+      <rect x="318.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.16s; animation-duration:2.52s" />
+      <rect x="326.0" y="448.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:0.34s; animation-duration:2.37s" />
+      <rect x="70.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.98s; animation-duration:2.49s" />
+      <rect x="78.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.37s; animation-duration:3.14s" />
+      <rect x="86.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.43s; animation-duration:3.36s" />
+      <rect x="94.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.6s; animation-duration:2.32s" />
+      <rect x="102.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.23; animation-delay:2.31s; animation-duration:2.57s" />
+      <rect x="134.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:0.83s; animation-duration:3.3s" />
+      <rect x="270.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.81s; animation-duration:2.22s" />
+      <rect x="310.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:2.29s; animation-duration:2.32s" />
+      <rect x="318.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.3s; animation-duration:2.91s" />
+      <rect x="326.0" y="456.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.17; animation-delay:0.49s; animation-duration:2.78s" />
+      <rect x="62.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.3; animation-delay:2.44s; animation-duration:2.28s" />
+      <rect x="70.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.33; animation-delay:0.77s; animation-duration:2.97s" />
+      <rect x="86.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.21; animation-delay:1.54s; animation-duration:2.26s" />
+      <rect x="94.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:2.31s; animation-duration:3.06s" />
+      <rect x="102.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.24; animation-delay:2.22s; animation-duration:3.31s" />
+      <rect x="110.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.98s; animation-duration:2.87s" />
+      <rect x="118.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.25; animation-delay:0.13s; animation-duration:3.33s" />
+      <rect x="190.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.22; animation-delay:0.77s; animation-duration:3.33s" />
+      <rect x="198.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:0.19s; animation-duration:2.45s" />
+      <rect x="206.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:0.94s; animation-duration:2.51s" />
+      <rect x="214.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.19; animation-delay:1.51s; animation-duration:2.42s" />
+      <rect x="270.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.26; animation-delay:0.23s; animation-duration:2.68s" />
+      <rect x="294.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.29; animation-delay:2.02s; animation-duration:3.17s" />
+      <rect x="302.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.35; animation-delay:1.23s; animation-duration:2.92s" />
+      <rect x="310.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.54s; animation-duration:2.94s" />
+      <rect x="318.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.03s; animation-duration:2.24s" />
+      <rect x="326.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:1.55s; animation-duration:2.83s" />
+      <rect x="334.0" y="464.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.23; animation-delay:0.02s; animation-duration:3.37s" />
+      <rect x="190.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.22; animation-delay:1.57s; animation-duration:2.86s" />
+      <rect x="198.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.78s; animation-duration:2.91s" />
+      <rect x="206.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:1.3s; animation-duration:3.01s" />
+      <rect x="214.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.22; animation-delay:0.84s; animation-duration:2.63s" />
+      <rect x="270.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.21; animation-delay:1.62s; animation-duration:2.87s" />
+      <rect x="286.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.31; animation-delay:0.49s; animation-duration:3.05s" />
+      <rect x="294.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.24; animation-delay:1.28s; animation-duration:3.04s" />
+      <rect x="302.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:2.56s; animation-duration:2.22s" />
+      <rect x="310.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.15; animation-delay:0.67s; animation-duration:2.38s" />
+      <rect x="318.0" y="472.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.2; animation-delay:0.53s; animation-duration:3.23s" />
+      <rect x="198.0" y="480.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.24; animation-delay:1.24s; animation-duration:2.75s" />
+      <rect x="206.0" y="480.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.28; animation-delay:2.16s; animation-duration:2.45s" />
+      <rect x="310.0" y="480.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.24; animation-delay:2.28s; animation-duration:2.25s" />
+      <rect x="318.0" y="480.4" width="6.4" height="6.4" rx="1" class="dot" style="opacity:0.2; animation-delay:0.3s; animation-duration:3.03s" />
+
+  <rect class="frame2" x="422" y="86" width="460" height="612.8" rx="10"/>
+  
+      <text x="438" y="116" class="section">about</text>
+      <line x1="438" y1="123" x2="866" y2="123" class="rule" />
+      <text x="438" y="140" class="label">name</text>
+      <text x="603" y="140" class="value typewriter" style="animation-delay:0.90s">pangeran</text>
+      <text x="438" y="164" class="label">role</text>
+      <text x="603" y="164" class="value typewriter" style="animation-delay:1.04s">informatics student</text>
+      <text x="438" y="188" class="label">focus</text>
+      <text x="603" y="188" class="value typewriter" style="animation-delay:1.18s">web development &amp; cybersecurity</text>
+      <text x="438" y="225.2" class="section">stack</text>
+      <line x1="438" y1="232.2" x2="866" y2="232.2" class="rule" />
+      <text x="438" y="249.2" class="label">frontend</text>
+      <text x="603" y="249.2" class="value typewriter" style="animation-delay:1.32s">html, css, javascript</text>
+      <text x="438" y="273.2" class="label">backend</text>
+      <text x="603" y="273.2" class="value typewriter" style="animation-delay:1.46s">php, laravel, codeigniter</text>
+      <text x="438" y="297.2" class="label">scripting</text>
+      <text x="603" y="297.2" class="value typewriter" style="animation-delay:1.60s">python</text>
+      <text x="438" y="321.2" class="label">database</text>
+      <text x="603" y="321.2" class="value typewriter" style="animation-delay:1.74s">mysql</text>
+      <text x="438" y="345.2" class="label">environment</text>
+      <text x="603" y="345.2" class="value typewriter" style="animation-delay:1.88s">linux, git, github, vscode</text>
+      <text x="438" y="382.4" class="section">interests</text>
+      <line x1="438" y1="389.4" x2="866" y2="389.4" class="rule" />
+      <text x="438" y="406.4" class="label">security</text>
+      <text x="603" y="406.4" class="value typewriter" style="animation-delay:2.02s">cybersecurity</text>
+      <text x="438" y="430.4" class="label">projects</text>
+      <text x="603" y="430.4" class="value typewriter" style="animation-delay:2.16s">web apps &amp; automation</text>
+      <text x="438" y="467.59999999999997" class="section">contact</text>
+      <line x1="438" y1="474.59999999999997" x2="866" y2="474.59999999999997" class="rule" />
+      <text x="438" y="491.59999999999997" class="label">github</text>
+      <text x="603" y="491.59999999999997" class="value typewriter" style="animation-delay:2.30s">github.com/pangeran-droid</text>
+      <text x="438" y="515.5999999999999" class="label">telegram</text>
+      <text x="603" y="515.5999999999999" class="value typewriter" style="animation-delay:2.44s">t.me/pangeran1337</text>
+      <text x="438" y="552.8" class="section">github stats</text>
+      <line x1="438" y1="559.8" x2="866" y2="559.8" class="rule" />
+      <text x="438" y="576.8" class="label">repositories</text>
+      <text x="603" y="576.8" class="value typewriter" style="animation-delay:2.58s">N/A</text>
+      <text x="438" y="600.8" class="label">stars</text>
+      <text x="603" y="600.8" class="value typewriter" style="animation-delay:2.72s">N/A</text>
+      <text x="438" y="624.8" class="label">followers</text>
+      <text x="603" y="624.8" class="value typewriter" style="animation-delay:2.86s">N/A</text>
+      <text x="438" y="648.8" class="label">contributions</text>
+      <text x="603" y="648.8" class="value typewriter" style="animation-delay:3.00s">N/A</text>
+      <text x="438" y="672.8" class="label">languages</text>
+      <text x="603" y="672.8" class="value typewriter" style="animation-delay:3.14s">N/A</text>
+
+  <rect class="scanline" x="18" y="0" width="876" height="6"/>
+</svg>
