@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-  <img src="./profile-scan.svg" alt="animated ascii profile card" width="100%" />
+  <img src="./profile.svg" alt="animated ascii profile card" width="100%" />
 </p>
 
 <p align="center">
@@ -32,8 +32,17 @@
 <h3 align="center">Tech Stack & Tools</h3>
 
 <p align="center">
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,php,python,git,github,kali)](https://skillicons.dev)
+  <img height="50" src="assets/html-logo.png">
+  <img height="50" src="assets/js-logo.png">
+  <img height="50" src="assets/css-logo.png">
+  <img height="50" src="assets/php-logo.png">
+  <img height="50" src="assets/laravel-logo.png">
+  <img height="50" src="assets/ci-logo.png">
+  <img height="50" src="assets/kali.png">
+  <img height="50" src="assets/git-logo.png">
+  <img height="50" src="assets/github-white-logo.png">
+  <img height="50" src="assets/py-logo.png">
+</p>
 
 ---
 

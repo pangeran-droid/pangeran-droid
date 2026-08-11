@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'profile-scan.svg'  # avoid infinite loop when the bot commits
+      - 'profile.svg'  # avoid infinite loop when the bot commits
 
 permissions:
   contents: write
@@ -32,7 +32,7 @@ jobs:
         env:
           GITHUB_LOGIN: pangeran-droid
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUT_PATH: profile-scan.svg
+          OUT_PATH: profile.svg
         run: python scripts/generate_card.py
 
       - name: Commit and push if changed
