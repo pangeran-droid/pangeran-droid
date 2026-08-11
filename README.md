@@ -32,16 +32,9 @@
 <h3 align="center">Tech Stack & Tools</h3>
 
 <p align="center">
-  <img height="50" src="assets/html-logo.png">
-  <img height="50" src="assets/js-logo.png">
-  <img height="50" src="assets/css-logo.png">
-  <img height="50" src="assets/php-logo.png">
-  <img height="50" src="assets/laravel-logo.png">
-  <img height="50" src="assets/ci-logo.png">
-  <img height="50" src="assets/kali.png">
-  <img height="50" src="assets/git-logo.png">
-  <img height="50" src="assets/github-white-logo.png">
-  <img height="50" src="assets/py-logo.png">
+  
+![icon-collection-wave](https://stats.pphat.top/icons?name=html,css,js,mysql,php,laravel,python,git,github,kalilinux&effect=wave&columns=5)
+
 </p>
 
 ---
@@ -52,7 +45,8 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph-dark.svg"
+      srcset="https://raw.githubuserconten
+      t.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
