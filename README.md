@@ -7,6 +7,9 @@
   <img src="./profile.svg" alt="animated ascii profile card" width="100%" />
 </p>
 
+
+<h3 align="center">⚡ Connect With Me</h3> <p align="center"> <a href="https://github.com/pangeran-droid"> <img src="https://skillicons.dev/icons?i=github" width="42" alt="GitHub" /> </a> &nbsp;&nbsp; <a href="https://t.me/USERNAME_TELEGRAM"> <img src="https://skillicons.dev/icons?i=telegram" width="42" alt="Telegram" /> </a> &nbsp;&nbsp; <a href="mailto:EMAIL_KAMU"> <img src="https://skillicons.dev/icons?i=gmail" width="42" alt="Gmail" /> </a> </p> <p align="center"> <sub>「 Build • Learn • Secure 」</sub> </p>
+
 <p align="center">
   <img height="180" src="https://stats.pphat.top/languages?username=pangeran-droid&type=card" />
   <img height="180" src="https://stats.pphat.top/languages?username=pangeran-droid&type=pie" />
@@ -35,11 +38,11 @@
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph.svg"
+srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph.svg"
     />
     <img
       alt="github-contribution-grid-snake"
-      src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph.svg"
+      src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph-dark.svg"
     />
   </picture>
 </div>
