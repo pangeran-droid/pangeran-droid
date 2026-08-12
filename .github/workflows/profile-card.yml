@@ -1,44 +1,45 @@
 name: Animated ASCII profile card
 
 on:
-  schedule:
-    - cron: '0 4 * * *'   # refresh live stats daily
-  workflow_dispatch:        # allow manual run
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - 'profile.svg'  # avoid infinite loop when the bot commits
+schedule:
+- cron: '0 4 * * *' # refresh live stats daily
+workflow_dispatch:
+push:
+branches:
+- main
+paths-ignore:
+- 'profile.svg' # avoid infinite loop when the bot commits
 
 permissions:
-  contents: write
+contents: write
 
 jobs:
-  card:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+card:
+runs-on: ubuntu-latest
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: pip install pillow requests
+  - name: Set up Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: '3.12'
 
-      - name: Generate animated ASCII profile card
-        env:
-          GITHUB_LOGIN: pangeran-droid
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUT_PATH: profile.svg
-        run: python scripts/generate_card.py
+  - name: Install dependencies
+    run: pip install pillow requests
 
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile-scan.svg
-          git diff --staged --quiet || git commit -m "chore: refresh ascii profile card"
-          git push
+  - name: Generate animated ASCII profile card
+    env:
+      GITHUB_LOGIN: pangeran-droid
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      OUT_PATH: profile.svg
+    run: python scripts/generate_card.py
+
+  - name: Commit and push if changed
+    run: |
+      git config user.name "github-actions[bot]"
+      git config user.email "github-actions[bot]@users.noreply.github.com"
+      git add profile.svg
+      git diff --staged --quiet || git commit -m "chore: refresh ascii profile card"
+      git push
