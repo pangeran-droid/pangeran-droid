@@ -13,11 +13,17 @@
   <a href="https://github.com/pangeran-droid">
     <img src="https://skillicons.dev/icons?i=github" width="42" alt="GitHub" />
   </a> &nbsp;&nbsp; 
-  <a href="https://t.me/USERNAME_TELEGRAM">
+  <a href="https://t.me/pangeran1337">
     <img src="https://skillicons.dev/icons?i=telegram" width="42" alt="Telegram" />
   </a> &nbsp;&nbsp;
-  <a href="mailto:EMAIL_KAMU">
+  <a href="mailto:ranject6@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" width="42" alt="Gmail" />
+  </a>
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="42" alt="Linkedin" />
+  </a>
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=instagram" width="42" alt="Instagram" />
   </a>
 </p>
 
