@@ -11,13 +11,13 @@
       .cursor { fill: #39ffb0; animation: blink 1s steps(1) infinite; }
       .promptcmd { font-family: 'Courier New', monospace; font-size: 15px; fill: #39ffb0; white-space: pre; }
       .promptcursor { fill: #39ffb0; }
-      @keyframes promptClip0 { 0.0% { width: 0.0px; animation-timing-function: steps(6, jump-end); } 3.879% { width: 54.0px; animation-timing-function: steps(1, jump-end); } 12.768% { width: 54.0px; animation-timing-function: steps(6, jump-end); } 14.949% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
-      @keyframes promptClip1 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 18.182% { width: 0.0px; animation-timing-function: steps(41, jump-end); } 44.687% { width: 369.0px; animation-timing-function: steps(1, jump-end); } 53.576% { width: 369.0px; animation-timing-function: steps(41, jump-end); } 68.485% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
-      @keyframes promptClip2 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 71.717% { width: 0.0px; animation-timing-function: steps(16, jump-end); } 82.061% { width: 144.0px; animation-timing-function: steps(1, jump-end); } 90.949% { width: 144.0px; animation-timing-function: steps(16, jump-end); } 96.768% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
+      @keyframes promptClip0 { 0.0% { width: 0.0px; animation-timing-function: steps(21, jump-end); } 13.576% { width: 189.0px; animation-timing-function: steps(1, jump-end); } 22.465% { width: 189.0px; animation-timing-function: steps(21, jump-end); } 30.101% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
+      @keyframes promptClip1 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 33.333% { width: 0.0px; animation-timing-function: steps(15, jump-end); } 43.03% { width: 135.0px; animation-timing-function: steps(1, jump-end); } 51.919% { width: 135.0px; animation-timing-function: steps(15, jump-end); } 57.374% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
+      @keyframes promptClip2 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 60.606% { width: 0.0px; animation-timing-function: steps(27, jump-end); } 78.061% { width: 243.0px; animation-timing-function: steps(1, jump-end); } 86.949% { width: 243.0px; animation-timing-function: steps(27, jump-end); } 96.768% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
       .promptClipRect0 { animation: promptClip0 12.375s infinite; }
 .promptClipRect1 { animation: promptClip1 12.375s infinite; }
 .promptClipRect2 { animation: promptClip2 12.375s infinite; }
-      @keyframes promptCursorMove { 0.0% { transform: translateX(0.0px); animation-timing-function: steps(6, jump-end); } 3.879% { transform: translateX(54.0px); animation-timing-function: steps(1, jump-end); } 12.768% { transform: translateX(54.0px); animation-timing-function: steps(6, jump-end); } 14.949% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 18.182% { transform: translateX(0.0px); animation-timing-function: steps(41, jump-end); } 44.687% { transform: translateX(369.0px); animation-timing-function: steps(1, jump-end); } 53.576% { transform: translateX(369.0px); animation-timing-function: steps(41, jump-end); } 68.485% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 71.717% { transform: translateX(0.0px); animation-timing-function: steps(16, jump-end); } 82.061% { transform: translateX(144.0px); animation-timing-function: steps(1, jump-end); } 90.949% { transform: translateX(144.0px); animation-timing-function: steps(16, jump-end); } 96.768% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } }
+      @keyframes promptCursorMove { 0.0% { transform: translateX(0.0px); animation-timing-function: steps(21, jump-end); } 13.576% { transform: translateX(189.0px); animation-timing-function: steps(1, jump-end); } 22.465% { transform: translateX(189.0px); animation-timing-function: steps(21, jump-end); } 30.101% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 33.333% { transform: translateX(0.0px); animation-timing-function: steps(15, jump-end); } 43.03% { transform: translateX(135.0px); animation-timing-function: steps(1, jump-end); } 51.919% { transform: translateX(135.0px); animation-timing-function: steps(15, jump-end); } 57.374% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 60.606% { transform: translateX(0.0px); animation-timing-function: steps(27, jump-end); } 78.061% { transform: translateX(243.0px); animation-timing-function: steps(1, jump-end); } 86.949% { transform: translateX(243.0px); animation-timing-function: steps(27, jump-end); } 96.768% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } }
       .promptcursor { animation: promptCursorMove 12.375s infinite, blink 1s steps(1) infinite; }
       .fadein { opacity: 0; animation-name: reveal; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }
       .typewriter { opacity: 0; animation-name: reveal; animation-duration: 0.4s; animation-fill-mode: forwards; animation-timing-function: steps(1); }
@@ -28,13 +28,13 @@
     </style>
     
       <clipPath id="promptClip0">
-        <rect x="79.0" y="558" width="54.0" height="20" class="promptClipRect0" />
+        <rect x="79.0" y="558" width="189.0" height="20" class="promptClipRect0" />
       </clipPath>
       <clipPath id="promptClip1">
-        <rect x="79.0" y="558" width="369.0" height="20" class="promptClipRect1" />
+        <rect x="79.0" y="558" width="135.0" height="20" class="promptClipRect1" />
       </clipPath>
       <clipPath id="promptClip2">
-        <rect x="79.0" y="558" width="144.0" height="20" class="promptClipRect2" />
+        <rect x="79.0" y="558" width="243.0" height="20" class="promptClipRect2" />
       </clipPath>
   </defs>
 
@@ -90,8 +90,8 @@
   <text x="34" y="548" class="prompt">┌──(pangeran-droid@github)-[~]</text>
   <text x="34" y="572" class="prompt">└─$ </text>
   
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip0)" textLength="54.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">whoami</text>
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip1)" textLength="369.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">echo 'web dev &amp; cybersecurity enthusiast'</text>
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip2)" textLength="144.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">./run.sh --build</text>
+      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip0)" textLength="189.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Informatics Student 🎓</text>
+      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip1)" textLength="135.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Web Developer 💻</text>
+      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip2)" textLength="243.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Cybersecurity Enthusiast 🛡️</text>
   <rect x="79.0" y="558.0" width="8" height="16" class="promptcursor" />
 </svg>

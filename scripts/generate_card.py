@@ -53,6 +53,22 @@ VALUE_COLOR = "#8fe6bd"     # field values
 PALETTE = ["#2b2f36", "#ff5f56", "#3ddc84", "#ffd166", "#4d8cff",
            "#b16cff", "#39e0d0", "#e8e8e8"]
 
+# ---------------------------------------------------------------------------
+# Typing/deleting effect shown at the terminal prompt (after "$ "). Each
+# command is typed out character by character, held, deleted, then the
+# next one starts — looping forever. Edit the list freely.
+# ---------------------------------------------------------------------------
+PROMPT_COMMANDS = [
+    "Informatics Student",
+    "Web Developer",
+    "Cybersecurity Enthusiast",
+]
+PROMPT_TYPE_SPEED = 0.08     # seconds per character while typing
+PROMPT_DELETE_SPEED = 0.045  # seconds per character while deleting
+PROMPT_HOLD_TIME = 1.1       # seconds to pause once fully typed
+PROMPT_GAP_TIME = 0.4        # seconds pause on an empty prompt between commands
+PROMPT_CHAR_W = 9.0          # matches the prompt font's monospace advance
+
 # ASCII density ramp: index 0 = darkest/densest character, last = blank.
 # RAMP = "@%#*+=-:. "
 RAMP = " .`:-=+*cs#%@"
@@ -153,6 +169,96 @@ def ascii_rows_placeholder():
                 line.append(" ")
         out_rows.append("".join(line))
     return out_rows
+
+
+def build_prompt_typing_svg(commands, x, y):
+    """
+    Builds a typing/deleting effect anchored at the terminal prompt (after
+    "$ "). Unlike a plain fade, the blinking cursor's x position animates
+    in lock-step with each command's width, so it always sits right at the
+    end of whatever is currently "typed" — exactly like a real terminal.
+    """
+    durations = []
+    for cmd in commands:
+        n = max(1, len(cmd))
+        durations.append(n * PROMPT_TYPE_SPEED + PROMPT_HOLD_TIME + n * PROMPT_DELETE_SPEED + PROMPT_GAP_TIME)
+    total = sum(durations)
+
+    max_w = max(len(c) for c in commands) * PROMPT_CHAR_W
+
+    keyframes_css = []
+    cursor_stops = []  # (percent, x-offset, timing-fn) merged across all commands
+    groups_svg = []
+    t = 0.0
+    for i, cmd in enumerate(commands):
+        n = max(1, len(cmd))
+        full_w = n * PROMPT_CHAR_W
+        type_dur = n * PROMPT_TYPE_SPEED
+        delete_dur = n * PROMPT_DELETE_SPEED
+
+        t_start = t
+        t_type_end = t_start + type_dur
+        t_hold_end = t_type_end + PROMPT_HOLD_TIME
+        t_delete_end = t_hold_end + delete_dur
+        t = t_delete_end + PROMPT_GAP_TIME
+
+        def pct(sec):
+            return round(max(0.0, min(100.0, sec / total * 100)), 3)
+
+        stops = [
+            (0, 0, "steps(1, jump-end)"),
+            (pct(t_start), 0, f"steps({n}, jump-end)"),
+            (pct(t_type_end), full_w, "steps(1, jump-end)"),
+            (pct(t_hold_end), full_w, f"steps({n}, jump-end)"),
+            (pct(t_delete_end), 0, "steps(1, jump-end)"),
+            (100, 0, "steps(1, jump-end)"),
+        ]
+        seen = []
+        for p, w, tf in stops:
+            if seen and seen[-1][0] == p:
+                seen[-1] = (p, w, tf)
+            else:
+                seen.append((p, w, tf))
+
+        body = " ".join(
+            f"{p}% {{ width: {w:.1f}px; animation-timing-function: {tf}; }}" for p, w, tf in seen
+        )
+        keyframes_css.append(f"@keyframes promptClip{i} {{ {body} }}")
+        cursor_stops.extend(seen)
+
+        groups_svg.append(f'''
+      <clipPath id="promptClip{i}">
+        <rect x="{x}" y="{y-14}" width="{full_w:.1f}" height="20" class="promptClipRect{i}" />
+      </clipPath>''')
+
+    text_svg = []
+    for i, cmd in enumerate(commands):
+        full_w = max(1, len(cmd)) * PROMPT_CHAR_W
+        text_svg.append(
+            f'\n      <text x="{x}" y="{y}" class="promptcmd" clip-path="url(#promptClip{i})" '
+            f'textLength="{full_w:.1f}" lengthAdjust="spacingAndGlyphs" xml:space="preserve">{xml_escape(cmd)}</text>'
+        )
+
+    clip_anim_css = "\n".join(
+        f".promptClipRect{i} {{ animation: promptClip{i} {total:.3f}s infinite; }}"
+        for i in range(len(commands))
+    )
+
+    # merge every command's stops (already in time order) into one cursor track
+    cursor_body = " ".join(
+        f"{p}% {{ transform: translateX({w:.1f}px); animation-timing-function: {tf}; }}"
+        for p, w, tf in cursor_stops
+    )
+    cursor_css = (
+        f"@keyframes promptCursorMove {{ {cursor_body} }}\n      "
+        f".promptcursor {{ animation: promptCursorMove {total:.3f}s infinite, blink 1s steps(1) infinite; }}"
+    )
+
+    cursor_svg = f'<rect x="{x:.1f}" y="{y-14:.1f}" width="8" height="16" class="promptcursor" />'
+
+    style = "\n      ".join(keyframes_css) + "\n      " + clip_anim_css + "\n      " + cursor_css
+    defs = "".join(groups_svg)
+    return style, defs, "".join(text_svg), cursor_svg, max_w
 
 
 def fetch_github_stats(login, token):
@@ -289,13 +395,23 @@ def build_svg(art_rows, fields):
     # --- terminal prompt footer --------------------------------------------
     # prompt_line1 = f"┌──({LOGIN}@{LOGIN})-[~]"
     prompt_line1 = f"┌──({LOGIN}@github)-[~]"
-    prompt_line2 = "└─$"
-    cursor_x = PAD + (len(prompt_line2) + 1) * 9.0
+    prompt_line2 = "└─$ "
+
+    typed_x = PAD + (len(prompt_line2) + 1) * 9.0
+    typed_y = prompt_y + 24
+    prompt_style, prompt_defs, prompt_cmd_svg, prompt_cursor_svg, cmd_max_w = build_prompt_typing_svg(
+        PROMPT_COMMANDS, typed_x, typed_y
+    )
+
     prompt_svg = (
         f'<text x="{PAD}" y="{prompt_y}" class="prompt">{xml_escape(prompt_line1)}</text>'
-        f'\n  <text x="{PAD}" y="{prompt_y + 24}" class="prompt">{xml_escape(prompt_line2)}</text>'
-        f'\n  <rect x="{cursor_x:.1f}" y="{prompt_y + 10:.1f}" width="9" height="15" class="cursor" />'
+        f'\n  <text x="{PAD}" y="{typed_y}" class="prompt">{xml_escape(prompt_line2)}</text>'
+        f'\n  {prompt_cmd_svg}'
+        f'\n  {prompt_cursor_svg}'
     )
+
+    # widen the canvas if the longest typed command needs more room than the fields column
+    W = max(W, typed_x + cmd_max_w + PAD)
 
     return f'''<svg width="{W:.0f}" height="{H:.0f}" viewBox="0 0 {W:.0f} {H:.0f}" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -308,6 +424,9 @@ def build_svg(art_rows, fields):
       .value {{ fill: {VALUE_COLOR}; }}
       .prompt {{ font-family: 'Courier New', monospace; font-size: 15px; fill: {ACCENT}; }}
       .cursor {{ fill: {ACCENT}; animation: blink 1s steps(1) infinite; }}
+      .promptcmd {{ font-family: 'Courier New', monospace; font-size: 15px; fill: {ACCENT}; white-space: pre; }}
+      .promptcursor {{ fill: {ACCENT}; }}
+      {prompt_style}
       .fadein {{ opacity: 0; animation-name: reveal; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
       .typewriter {{ opacity: 0; animation-name: reveal; animation-duration: 0.4s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
       .swatch {{ opacity: 0; animation-name: revealSwatch; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
@@ -315,6 +434,7 @@ def build_svg(art_rows, fields):
       @keyframes revealSwatch {{ to {{ opacity: 1; }} }}
       @keyframes blink {{ 0%, 49% {{ opacity: 1; }} 50%, 100% {{ opacity: 0; }} }}
     </style>
+    {prompt_defs}
   </defs>
 
   {art_svg}

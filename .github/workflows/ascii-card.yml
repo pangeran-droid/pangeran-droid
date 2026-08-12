@@ -23,26 +23,21 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Install dependencies
-        run: pip install pillow requests
-
+        run: pip install pillow requests numpy
       - name: Generate animated ASCII profile card
         env:
           GITHUB_LOGIN: pangeran-droid
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUT_PATH: assets/profile.svg
         run: python scripts/generate_card.py
-
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
