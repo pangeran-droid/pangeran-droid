@@ -41,8 +41,8 @@
 <h3 align="center">Github Stats</h3>
 
 <p align="center">
-  <img height="200" src="https://stats.pphat.top/languages?username=pangeran-droid&type=card" />
-  <img height="200" src="https://stats.pphat.top/languages?username=pangeran-droid&type=pie" />
+  <img height="190" src="https://stats.pphat.top/languages?username=pangeran-droid&type=card" />
+  <img height="190" src="https://stats.pphat.top/languages?username=pangeran-droid&type=pie" />
 </p>
 
 <br>
