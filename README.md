@@ -21,15 +21,15 @@
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/telegram.svg" width="42" alt="Telegram" />
   </a> &nbsp;&nbsp;
   <a href="mailto:ranject6@gmail.com">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/gmail.svg" width="42" alt="Gmail" />
-  </a>
+    <img src="https://cdn.simpleicons.org/gmail" width="42" alt="Gmail" />
+  </a> &nbsp;&nbsp; 
   <a href="#">
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg" width="42" alt="Linkedin" />
-  </a>
+  </a> &nbsp;&nbsp; 
   <a href="#">
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/instagram.svg" width="42" alt="Instagram" />
-  </a>
-  <a href="#">
+  </a> &nbsp;&nbsp; 
+  <a href="https://discord.gg/7rvj3xkZ">
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/discord.svg" width="42" alt="Discord" />
   </a>
 </p>
@@ -72,7 +72,7 @@
       srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph.svg"
     />
     <img
-      alt="github-contribution-grid-snake"
+      alt="github-contribution-pacman"
       src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph-dark.svg"
     />
   </picture>
