@@ -10,22 +10,22 @@
 
 <p align="center">
   <a href="https://github.com/pangeran-droid">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" width="42" alt="GitHub" />
-  </a> &nbsp;&nbsp; 
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
   <a href="https://t.me/pangeran1337">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/telegram.svg" width="42" alt="Telegram" />
-  </a> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=26A5E4" alt="Telegram"/>
+  </a>
   <a href="mailto:ranject6@gmail.com">
-    <img src="https://cdn.simpleicons.org/gmail" width="42" alt="Gmail" />
-  </a> &nbsp;&nbsp; 
+    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail"/>
+  </a>
   <a href="#">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg" width="42" alt="Linkedin" />
-  </a> &nbsp;&nbsp; 
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/>
+  </a>
   <a href="#">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/instagram.svg" width="42" alt="Instagram" />
-  </a> &nbsp;&nbsp; 
+    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"/>
+  </a>
   <a href="https://discord.gg/7rvj3xkZ">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/discord.svg" width="42" alt="Discord" />
+    <img src="https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord"/>
   </a>
 </p>
 
