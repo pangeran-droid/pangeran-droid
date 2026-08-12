@@ -25,6 +25,9 @@
   <a href="#">
     <img src="https://skillicons.dev/icons?i=instagram" width="42" alt="Instagram" />
   </a>
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=discord" width="42" alt="Discord" />
+  </a>
 </p>
 
 <p align="center">
