@@ -4,11 +4,15 @@
 </div>
 
 <p align="center">
-  <img src="./profile.svg" alt="animated ascii profile card" width="100%" />
+  <img src="assets/profile.svg" alt="animated ascii profile card" width="100%" />
 </p>
 
+<br>
+
+---
 
 <h3 align="center">Connect With Me</h3>
+
 <p align="center">
   <a href="https://github.com/pangeran-droid">
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" width="42" alt="GitHub" />
@@ -17,7 +21,7 @@
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/telegram.svg" width="42" alt="Telegram" />
   </a> &nbsp;&nbsp;
   <a href="mailto:ranject6@gmail.com">
-    <img src="(https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/gmail.svg" width="42" alt="Gmail" />
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/gmail.svg" width="42" alt="Gmail" />
   </a>
   <a href="#">
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg" width="42" alt="Linkedin" />
@@ -30,9 +34,15 @@
   </a>
 </p>
 
+<br>
+
+---
+
+<h3 align="center">Github Stats</h3>
+
 <p align="center">
-  <img height="180" src="https://stats.pphat.top/languages?username=pangeran-droid&type=card" />
-  <img height="180" src="https://stats.pphat.top/languages?username=pangeran-droid&type=pie" />
+  <img height="220" src="https://stats.pphat.top/languages?username=pangeran-droid&type=card" />
+  <img height="220" src="https://stats.pphat.top/languages?username=pangeran-droid&type=pie" />
 </p>
 
 <br>
@@ -45,6 +55,8 @@
   <img src="https://stats.pphat.top/icons?name=html,css,js,mysql,php,laravel,python,git,github,kalilinux&effect=wave&columns=5" />
 </p>
 
+<br>
+
 ---
 
 <h3 align="center">Contribution Activity</h3>
@@ -53,12 +65,11 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubuserconten
-      t.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph-dark.svg"
+      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph.svg"
+      srcset="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/pacman-output/pacman-contribution-graph.svg"
     />
     <img
       alt="github-contribution-grid-snake"
