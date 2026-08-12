@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/profile.svg" alt="animated ascii profile card" width="100%" />
+  <img src="https://github.com/pangeran-droid/pangeran-droid/blob/main/assets/profile.svg" alt="animated ascii profile card" width="100%" />
 </p>
 
 <br>
