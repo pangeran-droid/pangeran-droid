@@ -1,8 +1,3 @@
-<h1 align="center">Hi there, I'm Pangeran 👋</h1>
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF66&center=true&vCenter=true&width=600&lines=Informatics+Student+🎓;Web+Developer+💻;Cybersecurity+Enthusiast+🛡️" alt="Typing SVG" />
-</div>
-
 <p align="center">
   <img src="https://github.com/pangeran-droid/pangeran-droid/blob/main/assets/profile.svg" alt="animated ascii profile card" width="100%" />
 </p>
