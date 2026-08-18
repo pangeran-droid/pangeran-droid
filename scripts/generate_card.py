@@ -36,7 +36,7 @@ OUT_PATH = os.environ.get("OUT_PATH", "assets/profile.svg")
 # ---------------------------------------------------------------------------
 PROFILE_FIELDS = [
     ("Role", "informatics student"),
-    ("Focus", "web development & cybersecurity enthusiast"),
+    ("Focus", "junior web developer & cybersecurity enthusiast"),
     ("Stack.Frontend", "html, css, javascript"),
     ("Stack.Backend", "php, laravel, codeigniter"),
     ("Stack.Scripting", "python"),
@@ -60,7 +60,7 @@ PALETTE = ["#2b2f36", "#ff5f56", "#3ddc84", "#ffd166", "#4d8cff",
 # ---------------------------------------------------------------------------
 PROMPT_COMMANDS = [
     "Informatics Student",
-    "Web Developer",
+    "Junior Web Developer",
     "Cybersecurity Enthusiast",
 ]
 PROMPT_TYPE_SPEED = 0.08     # seconds per character while typing
