@@ -47,7 +47,8 @@ PROFILE_FIELDS = [
     ("Contact.Telegram", "t.me/pangeran1337"),
 ]
 
-ACCENT = "#39ffb0"          # ascii art + header color
+# ACCENT = "#39ffb0"          # ascii art + header color
+ACCENT = "#00b8ff"
 LABEL_COLOR = "#eafff5"     # bold field labels
 VALUE_COLOR = "#8fe6bd"     # field values
 PALETTE = ["#2b2f36", "#ff5f56", "#3ddc84", "#ffd166", "#4d8cff",
