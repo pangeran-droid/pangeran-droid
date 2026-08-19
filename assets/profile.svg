@@ -1,16 +1,16 @@
 <svg width="842" height="610" viewBox="0 0 842 610" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .art { font-family: 'Courier New', monospace; font-size: 12.3px; fill: #39ffb0; white-space: pre; }
-      .header { font-family: 'Courier New', monospace; font-size: 18px; font-weight: bold; fill: #39ffb0; }
-      .rule { stroke: #39ffb0; stroke-width: 1.4; opacity: 0.85; }
+      .art { font-family: 'Courier New', monospace; font-size: 12.3px; fill: #00b8ff; white-space: pre; }
+      .header { font-family: 'Courier New', monospace; font-size: 18px; font-weight: bold; fill: #00b8ff; }
+      .rule { stroke: #00b8ff; stroke-width: 1.4; opacity: 0.85; }
       .fieldline { font-family: 'Courier New', monospace; font-size: 14px; }
       .label { fill: #eafff5; font-weight: bold; }
       .value { fill: #8fe6bd; }
-      .prompt { font-family: 'Courier New', monospace; font-size: 15px; fill: #39ffb0; }
-      .cursor { fill: #39ffb0; animation: blink 1s steps(1) infinite; }
-      .promptcmd { font-family: 'Courier New', monospace; font-size: 15px; fill: #39ffb0; white-space: pre; }
-      .promptcursor { fill: #39ffb0; }
+      .prompt { font-family: 'Courier New', monospace; font-size: 15px; fill: #00b8ff; }
+      .cursor { fill: #00b8ff; animation: blink 1s steps(1) infinite; }
+      .promptcmd { font-family: 'Courier New', monospace; font-size: 15px; fill: #00b8ff; white-space: pre; }
+      .promptcursor { fill: #00b8ff; }
       @keyframes promptClip0 { 0.0% { width: 0.0px; animation-timing-function: steps(19, jump-end); } 12.283% { width: 171.0px; animation-timing-function: steps(1, jump-end); } 21.172% { width: 171.0px; animation-timing-function: steps(19, jump-end); } 28.081% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
       @keyframes promptClip1 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 31.313% { width: 0.0px; animation-timing-function: steps(20, jump-end); } 44.242% { width: 180.0px; animation-timing-function: steps(1, jump-end); } 53.131% { width: 180.0px; animation-timing-function: steps(20, jump-end); } 60.404% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
       @keyframes promptClip2 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 63.636% { width: 0.0px; animation-timing-function: steps(24, jump-end); } 79.152% { width: 216.0px; animation-timing-function: steps(1, jump-end); } 88.04% { width: 216.0px; animation-timing-function: steps(24, jump-end); } 96.768% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
