@@ -55,8 +55,8 @@ PALETTE = ["#0b1120", "#e8384f", "#3ddc84", "#ffd166", "#4d8cff",
            "#b16cff", "#39e0d0", "#e8e8e8"]
 
 PROMPT_COMMANDS = [
-    "./neofetch",
-    "nmap -sV target",
+    "informatics student",
+    "junior web developer",
     "cybersecurity enthusiast",
 ]
 PROMPT_TYPE_SPEED = 0.08
