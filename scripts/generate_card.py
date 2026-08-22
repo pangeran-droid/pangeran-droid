@@ -307,7 +307,7 @@ def build_svg(art_rows, fields):
     swatch_y = fields_start_y + fields_h + 14
     info_bottom = swatch_y + SWATCH + 10
 
-    ART_OFFSET_Y = -32
+    ART_OFFSET_Y = -34
   
     art_top = fields_start_y +  ART_OFFSET_Y
     art_bottom = art_top + ART_H
@@ -315,7 +315,7 @@ def build_svg(art_rows, fields):
 
     prompt_y = content_bottom + 40
     H = prompt_y + PROMPT_H + 20
-    header_text = f"{LOGIN}@{LOGIN}"
+    header_text = f"{LOGIN}@github"
     rule_len = max(len(header_text) + 2, ART_COLS)
     W = info_x + max(360, len(max([f"{k}: {v}" for k, v in fields], key=len)) * 8.2) + PAD
 
@@ -356,7 +356,7 @@ def build_svg(art_rows, fields):
         )
     swatch_svg = "".join(swatch_lines)
 
-    prompt_line1 = f"┌──({LOGIN}@{LOGIN})-[~]"
+    prompt_line1 = f"┌──({LOGIN}@github-[~]"
     prompt_line2 = "└─$ "
 
     typed_x = PAD + (len(prompt_line2) + 1) * 9.0
