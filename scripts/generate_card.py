@@ -432,7 +432,14 @@ def main():
         art_rows = ascii_rows_dragon()
 
     stats = fetch_github_stats(LOGIN, TOKEN)
+
     fields = list(PROFILE_FIELDS)
+    fields.extend([
+        ("GitHub.Repos", stats["repos"]),
+        ("GitHub.Stars", stats["stars"]),
+        ("GitHub.Followers", stats["followers"]),
+        ("GitHub.Languages", stats["top_languages"]),
+    ])
 
     svg = build_svg(art_rows, fields)
     os.makedirs(os.path.dirname(OUT_PATH) or ".", exist_ok=True)
