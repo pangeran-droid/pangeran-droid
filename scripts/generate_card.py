@@ -307,7 +307,9 @@ def build_svg(art_rows, fields):
     swatch_y = fields_start_y + fields_h + 14
     info_bottom = swatch_y + SWATCH + 10
 
-    art_top = fields_start_y - 8
+    ART_OFFSET_Y = -23
+  
+    art_top = fields_start_y +  ART_OFFSET_Y
     art_bottom = art_top + ART_H
     content_bottom = max(info_bottom, art_bottom)
 
