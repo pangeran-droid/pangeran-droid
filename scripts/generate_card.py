@@ -358,7 +358,7 @@ def build_svg(art_rows, fields):
         )
     swatch_svg = "".join(swatch_lines)
 
-    prompt_line1 = f"┌──({LOGIN}㉿{LOGIN})-[~]"
+    prompt_line1 = f"┌──({LOGIN}@{LOGIN})-[~]"
     prompt_line2 = "└─$ "
 
     typed_x = PAD + (len(prompt_line2) + 1) * 9.0
@@ -402,11 +402,11 @@ def build_svg(art_rows, fields):
       .promptcmd {{ font-family: 'Courier New', monospace; font-size: 15px; fill: {VALUE_COLOR}; white-space: pre; }}
       .promptcursor {{ fill: {ACCENT}; }}
       {prompt_style}
-      .fadein {{ opacity: 0; animation-name: reveal; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      .typewriter {{ opacity: 0; animation-name: reveal; animation-duration: 0.4s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      .swatch {{ opacity: 0; animation-name: revealSwatch; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      @keyframes reveal {{ to {{ opacity: 1; }} }}
-      @keyframes revealSwatch {{ to {{ opacity: 1; }} }}
+      .fadein {{ animation-name: reveal; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
+      .typewriter {{ animation-name: reveal; animation-duration: 0.4s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
+      .swatch {{ animation-name: revealSwatch; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
+      @keyframes reveal {{ 0% {{ opacity: 0; }} 1%, 100% {{ opacity: 1; }} }}
+      @keyframes revealSwatch {{ 0% {{ opacity: 0; }} 1%, 100% {{ opacity: 1; }} }}
       @keyframes blink {{ 0%, 49% {{ opacity: 1; }} 50%, 100% {{ opacity: 0; }} }}
     </style>
     {prompt_defs}
