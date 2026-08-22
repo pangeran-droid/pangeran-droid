@@ -30,21 +30,17 @@ OUT_PATH = os.environ.get("OUT_PATH", "assets/profile.svg")
 # Field list shown on the right, neofetch-style.
 # ---------------------------------------------------------------------------
 PROFILE_FIELDS = [
-    ("OS", "Kali GNU/Linux Rolling"),
-    ("Host", "Raspberry Pi 4 Mo"),
-    ("Kernel", "4.19.93-Re4son-v7l+"),
-    ("Uptime", "25 mins"),
-    ("Packages", "1295 (dpkg)"),
-    ("Shell", "bash 5.0.16"),
-    ("Resolution", "1824x984"),
-    ("DE", "Xfce 4.14"),
-    ("WM", "Xfwm4"),
-    ("WM Theme", "Kali-Dark"),
-    ("Theme", "Kali-Dark [GTK2/3]"),
-    ("Icons", "Flat-Remix-Blue-Dark"),
-    ("Terminal", "qterminal"),
-    ("CPU", "BCM2835 (4) @ 1.50GHz"),
-    ("Memory", "415MiB / 3807MiB"),
+    ("Role", "informatics student"),
+    ("Focus", "junior web developer & cybersecurity enthusiast"),
+    ("Stack.Frontend", "html, css, javascript"),
+    ("Stack.Backend", "php, laravel, codeigniter"),
+    ("Stack.Scripting", "python"),
+    ("Stack.Database", "mysql"),
+    ("Stack.Security", "burp suite"),
+    ("Environment", "linux, git, github, vscode"),
+    ("Interests", "cybersecurity"),
+    ("Contact.GitHub", f"github.com/{LOGIN}"),
+    ("Contact.Telegram", "t.me/pangeran1337"),
 ]
 
 # ---- Kali color scheme -----------------------------------------------------
