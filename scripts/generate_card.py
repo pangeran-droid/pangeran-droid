@@ -375,7 +375,7 @@ def build_svg(art_rows, fields):
     W = max(W, typed_x + cmd_max_w + PAD)
 
     # --- window chrome (title bar + traffic-light dots + title label) -----
-    title_text = f"{LOGIN}@{LOGIN}: ~"
+    title_text = f"{LOGIN}@github: ~"
     chrome_svg = f'''
   <rect x="0" y="0" width="{W:.0f}" height="{H:.0f}" rx="10" fill="{BG_COLOR}" />
   <path d="M0,10 a10,10 0 0 1 10,-10 h{W-20:.0f} a10,10 0 0 1 10,10 v{TITLEBAR_H-10:.0f} h-{W:.0f} z"
