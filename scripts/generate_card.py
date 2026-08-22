@@ -65,7 +65,7 @@ PROMPT_HOLD_TIME = 1.1
 PROMPT_GAP_TIME = 0.4
 PROMPT_CHAR_W = 9.0
 
-RAMP = " .`:-=+*cs#%@"
+RAMP = " .:-=+*#%@"
 
 CELL_W = 8.4
 CELL_H = 15.0
