@@ -44,7 +44,7 @@
   <circle cx="24" cy="17" r="6" fill="#ff5f57" />
   <circle cx="46" cy="17" r="6" fill="#febc2e" />
   <circle cx="68" cy="17" r="6" fill="#28c840" />
-  <text x="421" y="22" text-anchor="middle" class="titletext">pangeran-droid@pangeran-droid: ~</text>
+  <text x="421" y="22" text-anchor="middle" class="titletext">pangeran-droid@github: ~</text>
   <line x1="0" y1="34" x2="842" y2="34" stroke="#1f2740" stroke-width="1" />
 
   
