@@ -47,12 +47,20 @@ PROFILE_FIELDS = [
     ("Contact.Telegram", "t.me/pangeran1337"),
 ]
 
-# ACCENT = "#39ffb0"          # ascii art + header color
-ACCENT = "#00b8ff"
-LABEL_COLOR = "#eafff5"     # bold field labels
-VALUE_COLOR = "#8fe6bd"     # field values
-PALETTE = ["#2b2f36", "#ff5f56", "#3ddc84", "#ffd166", "#4d8cff",
-           "#b16cff", "#39e0d0", "#e8e8e8"]
+ACCENT = "#557CFF"
+LABEL_COLOR = "#F2F2F2"
+VALUE_COLOR = "#B8C7FF"
+
+PALETTE = [
+    "#000000",
+    "#FF5555",
+    "#50FA7B",
+    "#F1FA8C",
+    "#BD93F9",
+    "#8BE9FD",
+    "#FF79C6",
+    "#FFFFFF",
+]
 
 # ---------------------------------------------------------------------------
 # Typing/deleting effect shown at the terminal prompt (after "$ "). Each
@@ -415,7 +423,14 @@ def build_svg(art_rows, fields):
     W = max(W, typed_x + cmd_max_w + PAD)
 
     return f'''<svg width="{W:.0f}" height="{H:.0f}" viewBox="0 0 {W:.0f} {H:.0f}" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050A14"/>
+      <stop offset="50%" stop-color="#071225"/>
+      <stop offset="100%" stop-color="#0B1020"/>
+    </linearGradient>
+
     <style>
       .art {{ font-family: 'Courier New', monospace; font-size: {CELL_H*0.82:.1f}px; fill: {ACCENT}; white-space: pre; }}
       .header {{ font-family: 'Courier New', monospace; font-size: 18px; font-weight: bold; fill: {ACCENT}; }}
@@ -427,16 +442,58 @@ def build_svg(art_rows, fields):
       .cursor {{ fill: {ACCENT}; animation: blink 1s steps(1) infinite; }}
       .promptcmd {{ font-family: 'Courier New', monospace; font-size: 15px; fill: {ACCENT}; white-space: pre; }}
       .promptcursor {{ fill: {ACCENT}; }}
+
       {prompt_style}
-      .fadein {{ opacity: 0; animation-name: reveal; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      .typewriter {{ opacity: 0; animation-name: reveal; animation-duration: 0.4s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      .swatch {{ opacity: 0; animation-name: revealSwatch; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      @keyframes reveal {{ to {{ opacity: 1; }} }}
-      @keyframes revealSwatch {{ to {{ opacity: 1; }} }}
-      @keyframes blink {{ 0%, 49% {{ opacity: 1; }} 50%, 100% {{ opacity: 0; }} }}
+
+      .fadein {{
+        opacity: 0;
+        animation-name: reveal;
+        animation-duration: 0.35s;
+        animation-fill-mode: forwards;
+        animation-timing-function: steps(1);
+      }}
+
+      .typewriter {{
+        opacity: 0;
+        animation-name: reveal;
+        animation-duration: 0.4s;
+        animation-fill-mode: forwards;
+        animation-timing-function: steps(1);
+      }}
+
+      .swatch {{
+        opacity: 0;
+        animation-name: revealSwatch;
+        animation-duration: 0.35s;
+        animation-fill-mode: forwards;
+        animation-timing-function: steps(1);
+      }}
+
+      @keyframes reveal {{
+        to {{ opacity: 1; }}
+      }}
+
+      @keyframes revealSwatch {{
+        to {{ opacity: 1; }}
+      }}
+
+      @keyframes blink {{
+        0%, 49% {{ opacity: 1; }}
+        50%, 100% {{ opacity: 0; }}
+      }}
     </style>
+
     {prompt_defs}
   </defs>
+
+  <rect
+    x="0"
+    y="0"
+    width="{W:.0f}"
+    height="{H:.0f}"
+    rx="18"
+    fill="url(#bgGradient)"
+  />
 
   {art_svg}
 
@@ -447,6 +504,7 @@ def build_svg(art_rows, fields):
   {prompt_svg}
 </svg>
 '''
+
 
 
 def main():
