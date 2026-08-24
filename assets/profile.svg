@@ -1,4 +1,4 @@
-<svg width="842" height="630" viewBox="0 0 842 630" xmlns="http://www.w3.org/2000/svg">
+<svg width="893" height="652" viewBox="0 0 893 652" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .art { font-family: 'Courier New', monospace; font-size: 12.3px; fill: #5dc9f2; white-space: pre; }
@@ -28,79 +28,83 @@
     </style>
     
       <clipPath id="promptClip0">
-        <rect x="79.0" y="558" width="171.0" height="20" class="promptClipRect0" />
+        <rect x="79.0" y="580" width="171.0" height="20" class="promptClipRect0" />
       </clipPath>
       <clipPath id="promptClip1">
-        <rect x="79.0" y="558" width="180.0" height="20" class="promptClipRect1" />
+        <rect x="79.0" y="580" width="180.0" height="20" class="promptClipRect1" />
       </clipPath>
       <clipPath id="promptClip2">
-        <rect x="79.0" y="558" width="216.0" height="20" class="promptClipRect2" />
+        <rect x="79.0" y="580" width="216.0" height="20" class="promptClipRect2" />
       </clipPath>
   </defs>
   
-  <rect x="0" y="0" width="842" height="630" rx="10" fill="#0b1120" />
-  <path d="M0,10 a10,10 0 0 1 10,-10 h822 a10,10 0 0 1 10,10 v24 h-842 z"
+  <rect x="0" y="0" width="893" height="652" rx="10" fill="#0b1120" />
+  <path d="M0,10 a10,10 0 0 1 10,-10 h873 a10,10 0 0 1 10,10 v24 h-893 z"
         fill="#141c30" />
   <circle cx="24" cy="17" r="6" fill="#ff5f57" />
   <circle cx="46" cy="17" r="6" fill="#febc2e" />
   <circle cx="68" cy="17" r="6" fill="#28c840" />
-  <text x="421" y="22" text-anchor="middle" class="titletext">pangeran-droid@github: ~</text>
-  <line x1="0" y1="34" x2="842" y2="34" stroke="#1f2740" stroke-width="1" />
+  <text x="446" y="22" text-anchor="middle" class="titletext">kali@github: ~</text>
+  <line x1="0" y1="34" x2="893" y2="34" stroke="#1f2740" stroke-width="1" />
 
   
-      <text x="34" y="132.0" class="art fadein" style="animation-delay:0.0s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                  </text>
-      <text x="34" y="147.0" class="art fadein" style="animation-delay:0.045s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                  </text>
-      <text x="34" y="162.0" class="art fadein" style="animation-delay:0.09s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                  </text>
-      <text x="34" y="177.0" class="art fadein" style="animation-delay:0.135s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            -=+***++=:            </text>
-      <text x="34" y="192.0" class="art fadein" style="animation-delay:0.18s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         -*%%%%%%%%%%%#+:         </text>
-      <text x="34" y="207.0" class="art fadein" style="animation-delay:0.225s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        #%%%%%%%%%####%%%=        </text>
-      <text x="34" y="222.0" class="art fadein" style="animation-delay:0.27s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       *%#%%%%%%%%###%%%%%=       </text>
-      <text x="34" y="237.0" class="art fadein" style="animation-delay:0.315s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       +%%%%#####%####%%%%=       </text>
-      <text x="34" y="252.0" class="art fadein" style="animation-delay:0.36s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        +%%%#%#%*#%%#*%%#=        </text>
-      <text x="34" y="267.0" class="art fadein" style="animation-delay:0.405s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          -*#%*#*##*%*+=.         </text>
-      <text x="34" y="282.0" class="art fadein" style="animation-delay:0.45s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            #%%######*            </text>
-      <text x="34" y="297.0" class="art fadein" style="animation-delay:0.495s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            =%##%%#*##            </text>
-      <text x="34" y="312.0" class="art fadein" style="animation-delay:0.54s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">           :+%#%%%%*%#:           </text>
-      <text x="34" y="327.0" class="art fadein" style="animation-delay:0.585s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          *%%**%%%%*+###-         </text>
-      <text x="34" y="342.0" class="art fadein" style="animation-delay:0.63s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          .:   %%%%+   -          </text>
-      <text x="34" y="357.0" class="art fadein" style="animation-delay:0.675s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               :*#+               </text>
-      <text x="34" y="372.0" class="art fadein" style="animation-delay:0.72s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                =#                </text>
-      <text x="34" y="387.0" class="art fadein" style="animation-delay:0.765s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               :+#-.              </text>
-      <text x="34" y="402.0" class="art fadein" style="animation-delay:0.81s" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              -==+--:             </text>
+      <text x="34" y="134.0" class="art fadein" style="animation-delay:0.0s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                        </text>
+      <text x="34" y="149.0" class="art fadein" style="animation-delay:0.045s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                        </text>
+      <text x="34" y="164.0" class="art fadein" style="animation-delay:0.09s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                        </text>
+      <text x="34" y="179.0" class="art fadein" style="animation-delay:0.135s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 .....                  </text>
+      <text x="34" y="194.0" class="art fadein" style="animation-delay:0.18s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            .:+#########++:             </text>
+      <text x="34" y="209.0" class="art fadein" style="animation-delay:0.225s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          .+################:           </text>
+      <text x="34" y="224.0" class="art fadein" style="animation-delay:0.27s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         +#############+######.         </text>
+      <text x="34" y="239.0" class="art fadein" style="animation-delay:0.315s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        :######################.        </text>
+      <text x="34" y="254.0" class="art fadein" style="animation-delay:0.36s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        .######+##+############.        </text>
+      <text x="34" y="269.0" class="art fadein" style="animation-delay:0.405s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         :#########+##########:         </text>
+      <text x="34" y="284.0" class="art fadein" style="animation-delay:0.45s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          .+#+++::+:+++:+:+#+.          </text>
+      <text x="34" y="299.0" class="art fadein" style="animation-delay:0.495s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              :.   ..:.                 </text>
+      <text x="34" y="314.0" class="art fadein" style="animation-delay:0.54s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              .   :##+                  </text>
+      <text x="34" y="329.0" class="art fadein" style="animation-delay:0.585s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               +++####:+++              </text>
+      <text x="34" y="344.0" class="art fadein" style="animation-delay:0.63s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">             .:#######++#+              </text>
+      <text x="34" y="359.0" class="art fadein" style="animation-delay:0.675s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            ####+######:###+:           </text>
+      <text x="34" y="374.0" class="art fadein" style="animation-delay:0.72s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            ::.. +#####. ..::           </text>
+      <text x="34" y="389.0" class="art fadein" style="animation-delay:0.765s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  +###+                 </text>
+      <text x="34" y="404.0" class="art fadein" style="animation-delay:0.81s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                   :#.                  </text>
+      <text x="34" y="419.0" class="art fadein" style="animation-delay:0.855s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                   +#.                  </text>
+      <text x="34" y="434.0" class="art fadein" style="animation-delay:0.9s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  ::#::                 </text>
+      <text x="34" y="449.0" class="art fadein" style="animation-delay:0.945s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                .:::+:..                </text>
 
-  <text x="365.6" y="94" class="header">pangeran-droid@github</text>
-  <line x1="365.6" y1="104" x2="685.2" y2="104" class="rule" />
+  <text x="416.0" y="94" class="header">kali@github</text>
+  <line x1="416.0" y1="104" x2="792.0" y2="104" class="rule" />
   
-      <text x="365.6" y="134" class="fieldline typewriter" style="animation-delay:0.50s"><tspan class="label">Role:</tspan> <tspan class="value">informatics student</tspan></text>
-      <text x="365.6" y="156" class="fieldline typewriter" style="animation-delay:0.56s"><tspan class="label">Focus:</tspan> <tspan class="value">junior web developer &amp; cybersecurity enthusiast</tspan></text>
-      <text x="365.6" y="178" class="fieldline typewriter" style="animation-delay:0.62s"><tspan class="label">Stack.Frontend:</tspan> <tspan class="value">html, css, javascript</tspan></text>
-      <text x="365.6" y="200" class="fieldline typewriter" style="animation-delay:0.68s"><tspan class="label">Stack.Backend:</tspan> <tspan class="value">php, laravel, codeigniter</tspan></text>
-      <text x="365.6" y="222" class="fieldline typewriter" style="animation-delay:0.74s"><tspan class="label">Stack.Scripting:</tspan> <tspan class="value">python</tspan></text>
-      <text x="365.6" y="244" class="fieldline typewriter" style="animation-delay:0.80s"><tspan class="label">Stack.Database:</tspan> <tspan class="value">mysql</tspan></text>
-      <text x="365.6" y="266" class="fieldline typewriter" style="animation-delay:0.86s"><tspan class="label">Stack.Security:</tspan> <tspan class="value">burp suite</tspan></text>
-      <text x="365.6" y="288" class="fieldline typewriter" style="animation-delay:0.92s"><tspan class="label">Environment:</tspan> <tspan class="value">linux, git, github, vscode</tspan></text>
-      <text x="365.6" y="310" class="fieldline typewriter" style="animation-delay:0.98s"><tspan class="label">Interests:</tspan> <tspan class="value">cybersecurity</tspan></text>
-      <text x="365.6" y="332" class="fieldline typewriter" style="animation-delay:1.04s"><tspan class="label">Contact.GitHub:</tspan> <tspan class="value">github.com/pangeran-droid</tspan></text>
-      <text x="365.6" y="354" class="fieldline typewriter" style="animation-delay:1.10s"><tspan class="label">Contact.Telegram:</tspan> <tspan class="value">t.me/pangeran1337</tspan></text>
-      <text x="365.6" y="376" class="fieldline typewriter" style="animation-delay:1.16s"><tspan class="label">GitHub.Repos:</tspan> <tspan class="value">19</tspan></text>
-      <text x="365.6" y="398" class="fieldline typewriter" style="animation-delay:1.22s"><tspan class="label">GitHub.Stars:</tspan> <tspan class="value">101</tspan></text>
-      <text x="365.6" y="420" class="fieldline typewriter" style="animation-delay:1.28s"><tspan class="label">GitHub.Followers:</tspan> <tspan class="value">8</tspan></text>
-      <text x="365.6" y="442" class="fieldline typewriter" style="animation-delay:1.34s"><tspan class="label">GitHub.Languages:</tspan> <tspan class="value">Python, JavaScript, HTML, CSS</tspan></text>
+      <text x="416.0" y="134" class="fieldline typewriter" style="animation-delay:0.50s"><tspan class="label">Role:</tspan> <tspan class="value">informatics student</tspan></text>
+      <text x="416.0" y="156" class="fieldline typewriter" style="animation-delay:0.56s"><tspan class="label">Focus:</tspan> <tspan class="value">junior web developer &amp; cybersecurity enthusiast</tspan></text>
+      <text x="416.0" y="178" class="fieldline typewriter" style="animation-delay:0.62s"><tspan class="label">Stack.Frontend:</tspan> <tspan class="value">html, css, javascript</tspan></text>
+      <text x="416.0" y="200" class="fieldline typewriter" style="animation-delay:0.68s"><tspan class="label">Stack.Backend:</tspan> <tspan class="value">php, laravel, codeigniter</tspan></text>
+      <text x="416.0" y="222" class="fieldline typewriter" style="animation-delay:0.74s"><tspan class="label">Stack.Scripting:</tspan> <tspan class="value">python</tspan></text>
+      <text x="416.0" y="244" class="fieldline typewriter" style="animation-delay:0.80s"><tspan class="label">Stack.Database:</tspan> <tspan class="value">mysql</tspan></text>
+      <text x="416.0" y="266" class="fieldline typewriter" style="animation-delay:0.86s"><tspan class="label">Stack.Security:</tspan> <tspan class="value">burp suite</tspan></text>
+      <text x="416.0" y="288" class="fieldline typewriter" style="animation-delay:0.92s"><tspan class="label">Environment:</tspan> <tspan class="value">linux, git, github, vscode</tspan></text>
+      <text x="416.0" y="310" class="fieldline typewriter" style="animation-delay:0.98s"><tspan class="label">Interests:</tspan> <tspan class="value">cybersecurity</tspan></text>
+      <text x="416.0" y="332" class="fieldline typewriter" style="animation-delay:1.04s"><tspan class="label">Contact.GitHub:</tspan> <tspan class="value">github.com/kali</tspan></text>
+      <text x="416.0" y="354" class="fieldline typewriter" style="animation-delay:1.10s"><tspan class="label">Contact.Telegram:</tspan> <tspan class="value">t.me/pangeran1337</tspan></text>
+      <text x="416.0" y="376" class="fieldline typewriter" style="animation-delay:1.16s"><tspan class="label">GitHub.Repos:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="398" class="fieldline typewriter" style="animation-delay:1.22s"><tspan class="label">GitHub.Stars:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="420" class="fieldline typewriter" style="animation-delay:1.28s"><tspan class="label">GitHub.Followers:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="442" class="fieldline typewriter" style="animation-delay:1.34s"><tspan class="label">GitHub.Languages:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="464" class="fieldline typewriter" style="animation-delay:1.40s"><tspan class="label">GitHub.Contributions:</tspan> <tspan class="value">N/A</tspan></text>
   
-      <rect x="365.6" y="478.0" width="20" height="20" rx="3" fill="#0b1120" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.40s" />
-      <rect x="393.6" y="478.0" width="20" height="20" rx="3" fill="#e8384f" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.45s" />
-      <rect x="421.6" y="478.0" width="20" height="20" rx="3" fill="#3ddc84" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.50s" />
-      <rect x="449.6" y="478.0" width="20" height="20" rx="3" fill="#ffd166" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.55s" />
-      <rect x="477.6" y="478.0" width="20" height="20" rx="3" fill="#4d8cff" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.60s" />
-      <rect x="505.6" y="478.0" width="20" height="20" rx="3" fill="#b16cff" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.65s" />
-      <rect x="533.6" y="478.0" width="20" height="20" rx="3" fill="#39e0d0" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.70s" />
-      <rect x="561.6" y="478.0" width="20" height="20" rx="3" fill="#e8e8e8" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.75s" />
+      <rect x="416.0" y="500.0" width="20" height="20" rx="3" fill="#0b1120" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.46s" />
+      <rect x="444.0" y="500.0" width="20" height="20" rx="3" fill="#e8384f" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.51s" />
+      <rect x="472.0" y="500.0" width="20" height="20" rx="3" fill="#3ddc84" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.56s" />
+      <rect x="500.0" y="500.0" width="20" height="20" rx="3" fill="#ffd166" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.61s" />
+      <rect x="528.0" y="500.0" width="20" height="20" rx="3" fill="#4d8cff" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.66s" />
+      <rect x="556.0" y="500.0" width="20" height="20" rx="3" fill="#b16cff" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.71s" />
+      <rect x="584.0" y="500.0" width="20" height="20" rx="3" fill="#39e0d0" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.76s" />
+      <rect x="612.0" y="500.0" width="20" height="20" rx="3" fill="#e8e8e8" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.81s" />
 
-  <text x="34" y="548" class="prompt">┌──(pangeran-droid@github-[~]</text>
-  <text x="34" y="572" class="prompt">└─$ </text>
+  <text x="34" y="570" class="prompt">┌──(kali@github-[~]</text>
+  <text x="34" y="594" class="prompt">└─$ </text>
   
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip0)" textLength="171.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">informatics student</text>
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip1)" textLength="180.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">junior web developer</text>
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip2)" textLength="216.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">cybersecurity enthusiast</text>
-  <rect x="79.0" y="558.0" width="8" height="16" class="promptcursor" />
+      <text x="79.0" y="594" class="promptcmd" clip-path="url(#promptClip0)" textLength="171.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">informatics student</text>
+      <text x="79.0" y="594" class="promptcmd" clip-path="url(#promptClip1)" textLength="180.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">junior web developer</text>
+      <text x="79.0" y="594" class="promptcmd" clip-path="url(#promptClip2)" textLength="216.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">cybersecurity enthusiast</text>
+  <rect x="79.0" y="580.0" width="8" height="16" class="promptcursor" />
 </svg>

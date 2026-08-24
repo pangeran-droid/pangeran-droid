@@ -65,11 +65,12 @@ PROMPT_HOLD_TIME = 1.1
 PROMPT_GAP_TIME = 0.4
 PROMPT_CHAR_W = 9.0
 
-RAMP = " .:-=+*#%@"
+# RAMP = " .:-=+*#%@"
+RAMP = " .:+#@"
 
 CELL_W = 8.4
 CELL_H = 15.0
-ART_COLS = 34
+ART_COLS = 40
 
 TITLEBAR_H = 34
 
@@ -307,7 +308,7 @@ def build_svg(art_rows, fields):
     swatch_y = fields_start_y + fields_h + 14
     info_bottom = swatch_y + SWATCH + 10
 
-    ART_OFFSET_Y = -14
+    ART_OFFSET_Y = -12
   
     art_top = fields_start_y +  ART_OFFSET_Y
     art_bottom = art_top + ART_H
@@ -439,6 +440,7 @@ def main():
         ("GitHub.Stars", stats["stars"]),
         ("GitHub.Followers", stats["followers"]),
         ("GitHub.Languages", stats["top_languages"]),
+        ('GitHub.Contributions', stats["contributions"])
     ])
 
     svg = build_svg(art_rows, fields)
