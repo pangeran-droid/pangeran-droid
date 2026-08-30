@@ -260,7 +260,10 @@ def fetch_github_stats(login, token):
         return stats
     try:
         import requests
+        from datetime import datetime, timezone
+
         headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+
         user_resp = requests.get(f"https://api.github.com/users/{login}", headers=headers, timeout=15)
         user_resp.raise_for_status()
         user = user_resp.json()
@@ -282,10 +285,62 @@ def fetch_github_stats(login, token):
                 lang_count[lang] = lang_count.get(lang, 0) + 1
         top_langs = sorted(lang_count, key=lang_count.get, reverse=True)[:4]
         stats["top_languages"] = ", ".join(top_langs) if top_langs else "N/A"
+
+        # GitHub contributions for the current year via GraphQL API.
+        current_year = datetime.now(timezone.utc).year
+        from_date = f"{current_year}-01-01T00:00:00Z"
+        to_date = f"{current_year}-12-31T23:59:59Z"
+
+        graphql_query = """
+        query($login: String!, $from: DateTime!, $to: DateTime!) {
+          user(login: $login) {
+            contributionsCollection(from: $from, to: $to) {
+              contributionCalendar {
+                totalContributions
+              }
+            }
+          }
+        }
+        """
+
+        graphql_resp = requests.post(
+            "https://api.github.com/graphql",
+            headers=headers,
+            json={
+                "query": graphql_query,
+                "variables": {
+                    "login": login,
+                    "from": from_date,
+                    "to": to_date,
+                },
+            },
+            timeout=15,
+        )
+        graphql_resp.raise_for_status()
+        graphql_data = graphql_resp.json()
+
+        if graphql_data.get("errors"):
+            print(
+                f"warning: failed to fetch GitHub contributions: {graphql_data['errors']}",
+                file=sys.stderr,
+            )
+        else:
+            user_data = graphql_data.get("data", {}).get("user")
+            if user_data:
+                contributions = user_data.get(
+                    "contributionsCollection", {}
+                ).get(
+                    "contributionCalendar", {}
+                ).get(
+                    "totalContributions"
+                )
+
+                if contributions is not None:
+                    stats["contributions"] = str(contributions)
+
     except Exception as e:
         print(f"warning: failed to fetch live stats: {e}", file=sys.stderr)
     return stats
-
 
 def build_svg(art_rows, fields):
     PAD = 34
