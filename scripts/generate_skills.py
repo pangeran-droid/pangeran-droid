@@ -20,8 +20,9 @@ OUT_PATH = os.environ.get("OUT_PATH", "assets/skills.svg")
 
 SKILLICONS_BASE = "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/"
 SIMPLEICONS_BASE = "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/"
+PODMAN_BASE = "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/"
 
-# List of skills and display labels for tooltips
+# List of skills and accessible titles
 SKILLS = [
     ("php", "PHP"),
     ("laravel", "Laravel"),
@@ -38,6 +39,7 @@ SKILLS = [
     ("ubuntu", "Ubuntu"),
     ("burpsuite", "Burp Suite"),
     ("docker", "Docker"),
+    ("podman", "Podman"),
     ("git", "Git"),
     ("github", "GitHub"),
     ("vscode", "VS Code"),
@@ -63,6 +65,7 @@ ICON_SOURCES = {
     "ubuntu": "skillicons:Ubuntu-Dark.svg",
     "burpsuite": f"url:{SIMPLEICONS_BASE}burpsuite.svg|#FF6633",
     "docker": "skillicons:Docker.svg",
+    "podman": f"url:{PODMAN_BASE}podman.svg|#E02C2C",
     "git": "skillicons:Git.svg",
     "github": "skillicons:Github-Dark.svg",
     "vscode": "skillicons:VSCode-Dark.svg",
@@ -71,17 +74,14 @@ ICON_SOURCES = {
 # Kali-matched dark palette
 CARD_BG = "#141c30"
 CARD_BORDER = "#1f2740"
-TOOLTIP_BG = "#141c30"
-TOOLTIP_BORDER = "#5dc9f2"
-TOOLTIP_TEXT = "#e8e8e8"
 
 # Layout & Animation Configuration
 PER_LINE = 6          # Icons per row (bottom row automatically centered)
 ICON_SIZE = 54        # Size of each icon (px)
 GAP_X = 20            # Horizontal gap between icons (px)
-GAP_Y = 26            # Vertical gap between rows
+GAP_Y = 18            # Vertical gap between rows
 PADDING_X = 24        # Left & right padding
-PADDING_Y = 24        # Top & bottom padding
+PADDING_Y = 20        # Top & bottom padding
 
 
 def load_raw_bytes(source_spec: str) -> tuple[bytes, bool, str | None]:
@@ -183,7 +183,7 @@ def build_svg():
     rows = (total_icons + PER_LINE - 1) // PER_LINE
 
     canvas_width = PER_LINE * ICON_SIZE + (PER_LINE - 1) * GAP_X + (PADDING_X * 2)
-    canvas_height = rows * ICON_SIZE + (rows - 1) * GAP_Y + (PADDING_Y * 2) + 8
+    canvas_height = rows * ICON_SIZE + (rows - 1) * GAP_Y + (PADDING_Y * 2)
 
     svg_elements = []
 
@@ -201,23 +201,11 @@ def build_svg():
         delay = round(idx * 0.14, 2)
         icon_markup = prepare_icon_svg(skill_key, idx)
 
-        pill_width = max(48, len(label) * 7.2 + 14)
-        pill_x = (ICON_SIZE - pill_width) / 2
-        text_x = ICON_SIZE / 2
-
         svg_elements.append(f"""
-  <g transform="translate({x}, {y})" class="skill-item">
+  <g transform="translate({x}, {y})">
     <title>{label}</title>
     <g class="skill-float" style="animation-delay: {delay}s;">
-      <g class="skill-icon">
-        {icon_markup}
-      </g>
-      <g transform="translate(0, {ICON_SIZE + 5})">
-        <g class="skill-tooltip">
-          <rect x="{pill_x:.1f}" y="0" width="{pill_width:.1f}" height="18" rx="5" fill="{TOOLTIP_BG}" stroke="{TOOLTIP_BORDER}" stroke-width="1"/>
-          <text x="{text_x:.1f}" y="12.5" text-anchor="middle" fill="{TOOLTIP_TEXT}" font-family="'Courier New', monospace" font-size="10" font-weight="bold">{label}</text>
-        </g>
-      </g>
+      {icon_markup}
     </g>
   </g>""")
 
@@ -230,27 +218,6 @@ def build_svg():
       }}
       .skill-float {{
         animation: floatWave 3s ease-in-out infinite;
-      }}
-      .skill-item {{
-        cursor: pointer;
-      }}
-      .skill-icon {{
-        transform-box: fill-box;
-        transform-origin: center center;
-        transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
-      }}
-      .skill-tooltip {{
-        opacity: 0;
-        transform: translateY(-4px);
-        transition: opacity 0.2s ease, transform 0.2s ease;
-        pointer-events: none;
-      }}
-      .skill-item:hover .skill-icon {{
-        transform: scale(1.12);
-      }}
-      .skill-item:hover .skill-tooltip {{
-        opacity: 1;
-        transform: translateY(0px);
       }}
     </style>
   </defs>
