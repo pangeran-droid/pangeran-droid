@@ -19,11 +19,8 @@
 .promptClipRect2 { animation: promptClip2 12.375s infinite; }
       @keyframes promptCursorMove { 0.0% { transform: translateX(0.0px); animation-timing-function: steps(19, jump-end); } 12.283% { transform: translateX(171.0px); animation-timing-function: steps(1, jump-end); } 21.172% { transform: translateX(171.0px); animation-timing-function: steps(19, jump-end); } 28.081% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 31.313% { transform: translateX(0.0px); animation-timing-function: steps(20, jump-end); } 44.242% { transform: translateX(180.0px); animation-timing-function: steps(1, jump-end); } 53.131% { transform: translateX(180.0px); animation-timing-function: steps(20, jump-end); } 60.404% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 63.636% { transform: translateX(0.0px); animation-timing-function: steps(24, jump-end); } 79.152% { transform: translateX(216.0px); animation-timing-function: steps(1, jump-end); } 88.04% { transform: translateX(216.0px); animation-timing-function: steps(24, jump-end); } 96.768% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } }
       .promptcursor { animation: promptCursorMove 12.375s infinite, blink 1s steps(1) infinite; }
-      .fadein { animation-name: reveal; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }
-      .typewriter { animation-name: reveal; animation-duration: 0.4s; animation-fill-mode: forwards; animation-timing-function: steps(1); }
-      .swatch { animation-name: revealSwatch; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }
-      @keyframes reveal { 0% { opacity: 0; } 1%, 100% { opacity: 1; } }
-      @keyframes revealSwatch { 0% { opacity: 0; } 1%, 100% { opacity: 1; } }
+      .fadein, .typewriter, .swatch { animation: fadeIn 0.65s cubic-bezier(0.22, 1, 0.36, 1) both; }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
       @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
     </style>
     
@@ -44,7 +41,7 @@
   <circle cx="24" cy="17" r="6" fill="#ff5f57" />
   <circle cx="46" cy="17" r="6" fill="#febc2e" />
   <circle cx="68" cy="17" r="6" fill="#28c840" />
-  <text x="446" y="22" text-anchor="middle" class="titletext">pangeran-droid@github: ~</text>
+  <text x="446" y="22" text-anchor="middle" class="titletext">kali@github: ~</text>
   <line x1="0" y1="34" x2="893" y2="34" stroke="#1f2740" stroke-width="1" />
 
   
@@ -71,8 +68,8 @@
       <text x="34" y="434.0" class="art fadein" style="animation-delay:0.9s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  ::#::                 </text>
       <text x="34" y="449.0" class="art fadein" style="animation-delay:0.945s" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                .:::+:..                </text>
 
-  <text x="416.0" y="94" class="header">pangeran-droid@github</text>
-  <line x1="416.0" y1="104" x2="792.0" y2="104" class="rule" />
+  <text x="416.0" y="94" class="header fadein" style="animation-delay:0.35s">kali@github</text>
+  <line x1="416.0" y1="104" x2="538.2" y2="104" class="rule" />
   
       <text x="416.0" y="134" class="fieldline typewriter" style="animation-delay:0.50s"><tspan class="label">Role:</tspan> <tspan class="value">informatics student</tspan></text>
       <text x="416.0" y="156" class="fieldline typewriter" style="animation-delay:0.56s"><tspan class="label">Focus:</tspan> <tspan class="value">junior web developer &amp; cybersecurity enthusiast</tspan></text>
@@ -83,13 +80,13 @@
       <text x="416.0" y="266" class="fieldline typewriter" style="animation-delay:0.86s"><tspan class="label">Stack.Security:</tspan> <tspan class="value">burp suite</tspan></text>
       <text x="416.0" y="288" class="fieldline typewriter" style="animation-delay:0.92s"><tspan class="label">Environment:</tspan> <tspan class="value">linux, git, github, vscode</tspan></text>
       <text x="416.0" y="310" class="fieldline typewriter" style="animation-delay:0.98s"><tspan class="label">Interests:</tspan> <tspan class="value">cybersecurity</tspan></text>
-      <text x="416.0" y="332" class="fieldline typewriter" style="animation-delay:1.04s"><tspan class="label">Contact.GitHub:</tspan> <tspan class="value">github.com/pangeran-droid</tspan></text>
+      <text x="416.0" y="332" class="fieldline typewriter" style="animation-delay:1.04s"><tspan class="label">Contact.GitHub:</tspan> <tspan class="value">github.com/kali</tspan></text>
       <text x="416.0" y="354" class="fieldline typewriter" style="animation-delay:1.10s"><tspan class="label">Contact.Telegram:</tspan> <tspan class="value">t.me/pangeran1337</tspan></text>
-      <text x="416.0" y="376" class="fieldline typewriter" style="animation-delay:1.16s"><tspan class="label">GitHub.Repos:</tspan> <tspan class="value">30</tspan></text>
-      <text x="416.0" y="398" class="fieldline typewriter" style="animation-delay:1.22s"><tspan class="label">GitHub.Stars:</tspan> <tspan class="value">172</tspan></text>
-      <text x="416.0" y="420" class="fieldline typewriter" style="animation-delay:1.28s"><tspan class="label">GitHub.Followers:</tspan> <tspan class="value">13</tspan></text>
-      <text x="416.0" y="442" class="fieldline typewriter" style="animation-delay:1.34s"><tspan class="label">GitHub.Languages:</tspan> <tspan class="value">Python, JavaScript, HTML, C++</tspan></text>
-      <text x="416.0" y="464" class="fieldline typewriter" style="animation-delay:1.40s"><tspan class="label">GitHub.Contributions:</tspan> <tspan class="value">499</tspan></text>
+      <text x="416.0" y="376" class="fieldline typewriter" style="animation-delay:1.16s"><tspan class="label">GitHub.Repos:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="398" class="fieldline typewriter" style="animation-delay:1.22s"><tspan class="label">GitHub.Stars:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="420" class="fieldline typewriter" style="animation-delay:1.28s"><tspan class="label">GitHub.Followers:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="442" class="fieldline typewriter" style="animation-delay:1.34s"><tspan class="label">GitHub.Languages:</tspan> <tspan class="value">N/A</tspan></text>
+      <text x="416.0" y="464" class="fieldline typewriter" style="animation-delay:1.40s"><tspan class="label">GitHub.Contributions:</tspan> <tspan class="value">N/A</tspan></text>
   
       <rect x="416.0" y="500.0" width="20" height="20" rx="3" fill="#0b1120" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.46s" />
       <rect x="444.0" y="500.0" width="20" height="20" rx="3" fill="#e8384f" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.51s" />
@@ -100,7 +97,7 @@
       <rect x="584.0" y="500.0" width="20" height="20" rx="3" fill="#39e0d0" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.76s" />
       <rect x="612.0" y="500.0" width="20" height="20" rx="3" fill="#e8e8e8" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.81s" />
 
-  <text x="34" y="570" class="prompt">┌──(pangeran-droid@github-[~]</text>
+  <text x="34" y="570" class="prompt">┌──(kali@github-[~]</text>
   <text x="34" y="594" class="prompt">└─$ </text>
   
       <text x="79.0" y="594" class="promptcmd" clip-path="url(#promptClip0)" textLength="171.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">informatics student</text>

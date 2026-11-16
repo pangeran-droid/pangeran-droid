@@ -33,21 +33,24 @@
 
 ---
 
-<h3 align="center">Github Stats</h3>
+<h3 align="center">Tech Stack & Tools</h3>
 
 <p align="center">
-  <img height="190" src="https://stats.pphat.top/languages?username=pangeran-droid&type=card" />
-  <img height="190" src="https://stats.pphat.top/languages?username=pangeran-droid&type=pie" />
+  <a href="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/refs/heads/main/assets/skills.svg">
+    <img src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/refs/heads/main/assets/skills.svg" alt="My Skills" />
+  </a>
 </p>
 
 <br>
 
 ---
 
-<h3 align="center">Tech Stack & Tools</h3>
+<h3 align="center">Github Stats</h3>
 
 <p align="center">
-  <img src="https://stats.pphat.top/icons?name=html,css,js,mysql,php,laravel,python,git,github,kalilinux&effect=wave&columns=5" />
+  <img height="195" src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/refs/heads/main/assets/languages-card.svg" alt="Top Languages Card" />
+  &nbsp;&nbsp;
+  <img height="195" src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/refs/heads/main/assets/languages-pie.svg" alt="Top Languages Pie Chart" />
 </p>
 
 <br>

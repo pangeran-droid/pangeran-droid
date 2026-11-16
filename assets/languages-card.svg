@@ -1,0 +1,89 @@
+<svg width="360" height="215" viewBox="0 0 360 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="progress-clip">
+      <rect x="0" y="0" width="312" height="10" rx="5" />
+    </clipPath>
+    <style>
+      @keyframes fadeUp {
+        0% { opacity: 0; transform: translateY(6px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes growBar {
+        0% { transform: scaleX(0); }
+        100% { transform: scaleX(1); }
+      }
+      @keyframes borderGlow {
+        0%, 100% { stroke: #1f2740; }
+        50% { stroke: #5dc9f2; }
+      }
+      .card-border {
+        animation: borderGlow 6s ease-in-out infinite;
+      }
+      .bar-anim {
+        transform-box: fill-box;
+        transform-origin: left center;
+        animation: growBar 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      }
+      .fade-up {
+        opacity: 0;
+        animation: fadeUp 0.55s ease-out forwards;
+      }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="359" height="214" rx="10" fill="#0b1120" stroke="#1f2740" class="card-border" />
+  <text x="24" y="34" fill="#5dc9f2" font-family="'Courier New', monospace" font-size="15" font-weight="bold">Most Used Languages</text>
+
+  <g transform="translate(24, 54)">
+    <rect x="0" y="0" width="312" height="10" rx="5" fill="#141c30" />
+    <g clip-path="url(#progress-clip)">
+      <g class="bar-anim">
+        <rect x="0.00" y="0" width="182.46" height="10" fill="#f1e05a" /><rect x="182.46" y="0" width="68.45" height="10" fill="#663399" /><rect x="250.91" y="0" width="30.17" height="10" fill="#4F5D95" /><rect x="281.08" y="0" width="25.12" height="10" fill="#e34c26" /><rect x="306.20" y="0" width="3.62" height="10" fill="#f7523f" /><rect x="309.82" y="0" width="2.18" height="10" fill="#c6538c" />
+      </g>
+    </g>
+  </g>
+
+  
+  <g transform="translate(24.0, 86)">
+    <g class="fade-up" style="animation-delay: 0.15s;">
+      <circle cx="6" cy="7" r="5" fill="#f1e05a" />
+      <text x="18" y="11" fill="#e8e8e8" font-family="'Courier New', monospace" font-size="12.5" font-weight="bold">JavaScript</text>
+      <text x="18" y="25" fill="#7f8aa6" font-family="'Courier New', monospace" font-size="11">58.5%</text>
+    </g>
+  </g>
+  <g transform="translate(180.0, 86)">
+    <g class="fade-up" style="animation-delay: 0.25s;">
+      <circle cx="6" cy="7" r="5" fill="#663399" />
+      <text x="18" y="11" fill="#e8e8e8" font-family="'Courier New', monospace" font-size="12.5" font-weight="bold">CSS</text>
+      <text x="18" y="25" fill="#7f8aa6" font-family="'Courier New', monospace" font-size="11">21.9%</text>
+    </g>
+  </g>
+  <g transform="translate(24.0, 124)">
+    <g class="fade-up" style="animation-delay: 0.35s;">
+      <circle cx="6" cy="7" r="5" fill="#4F5D95" />
+      <text x="18" y="11" fill="#e8e8e8" font-family="'Courier New', monospace" font-size="12.5" font-weight="bold">PHP</text>
+      <text x="18" y="25" fill="#7f8aa6" font-family="'Courier New', monospace" font-size="11">9.7%</text>
+    </g>
+  </g>
+  <g transform="translate(180.0, 124)">
+    <g class="fade-up" style="animation-delay: 0.45s;">
+      <circle cx="6" cy="7" r="5" fill="#e34c26" />
+      <text x="18" y="11" fill="#e8e8e8" font-family="'Courier New', monospace" font-size="12.5" font-weight="bold">HTML</text>
+      <text x="18" y="25" fill="#7f8aa6" font-family="'Courier New', monospace" font-size="11">8.1%</text>
+    </g>
+  </g>
+  <g transform="translate(24.0, 162)">
+    <g class="fade-up" style="animation-delay: 0.55s;">
+      <circle cx="6" cy="7" r="5" fill="#f7523f" />
+      <text x="18" y="11" fill="#e8e8e8" font-family="'Courier New', monospace" font-size="12.5" font-weight="bold">Blade</text>
+      <text x="18" y="25" fill="#7f8aa6" font-family="'Courier New', monospace" font-size="11">1.2%</text>
+    </g>
+  </g>
+  <g transform="translate(180.0, 162)">
+    <g class="fade-up" style="animation-delay: 0.65s;">
+      <circle cx="6" cy="7" r="5" fill="#c6538c" />
+      <text x="18" y="11" fill="#e8e8e8" font-family="'Courier New', monospace" font-size="12.5" font-weight="bold">SCSS</text>
+      <text x="18" y="25" fill="#7f8aa6" font-family="'Courier New', monospace" font-size="11">0.7%</text>
+    </g>
+  </g>
+</svg>

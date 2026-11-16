@@ -1,4 +1,4 @@
-name: Generate animated ascii profile card
+name: Generate animated profile SVGs
 
 on:
   # run automatically every 24 hours
@@ -12,9 +12,8 @@ on:
   push:
     branches:
       - main
-
     paths-ignore:
-      - 'assets/profile.svg'
+      - 'assets/*.svg'
 
 permissions:
   contents: write
@@ -23,25 +22,42 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Install dependencies
         run: pip install pillow requests numpy
+
       - name: Generate animated ASCII profile card
         env:
           GITHUB_LOGIN: pangeran-droid
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUT_PATH: assets/profile.svg
         run: python scripts/generate_card.py
+
+      - name: Generate animated skills SVG
+        env:
+          OUT_PATH: assets/skills.svg
+        run: python scripts/generate_skills.py
+
+      - name: Generate animated language stats SVGs
+        env:
+          GITHUB_LOGIN: pangeran-droid
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_CARD: assets/languages-card.svg
+          OUT_PIE: assets/languages-pie.svg
+        run: python scripts/generate_stats.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/profile.svg
-          git diff --staged --quiet || git commit -m "chore: refresh ascii profile card"
-          git push
+          git add assets/
+          git diff --staged --quiet || (git commit -m "chore: refresh animated profile SVGs" && git push)

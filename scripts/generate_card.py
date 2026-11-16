@@ -169,6 +169,9 @@ def ascii_rows_dragon():
 
 
 def build_prompt_typing_svg(commands, x, y):
+    if not commands:
+        commands = [""]
+
     durations = []
     for cmd in commands:
         n = max(1, len(cmd))
@@ -270,12 +273,21 @@ def fetch_github_stats(login, token):
         stats["followers"] = str(user.get("followers", "N/A"))
         stats["repos"] = str(user.get("public_repos", "N/A"))
 
-        repos_resp = requests.get(
-            f"https://api.github.com/users/{login}/repos?per_page=100&type=owner",
-            headers=headers, timeout=15,
-        )
-        repos_resp.raise_for_status()
-        repos = repos_resp.json()
+        repos = []
+        repos_url = f"https://api.github.com/users/{login}/repos?per_page=100&type=owner"
+        seen_repo_urls = set()
+        while repos_url:
+            if repos_url in seen_repo_urls:
+                raise ValueError("GitHub repository pagination returned a repeated URL")
+            seen_repo_urls.add(repos_url)
+            repos_resp = requests.get(repos_url, headers=headers, timeout=15)
+            repos_resp.raise_for_status()
+            page_repos = repos_resp.json()
+            if not isinstance(page_repos, list):
+                raise ValueError("GitHub repository response was not a list")
+            repos.extend(page_repos)
+            repos_url = repos_resp.links.get("next", {}).get("url")
+
         stats["stars"] = str(sum(r.get("stargazers_count", 0) for r in repos if not r.get("fork")))
 
         lang_count = {}
@@ -372,8 +384,9 @@ def build_svg(art_rows, fields):
     prompt_y = content_bottom + 40
     H = prompt_y + PROMPT_H + 20
     header_text = f"{LOGIN}@github"
-    rule_len = max(len(header_text) + 2, ART_COLS)
-    W = info_x + max(360, len(max([f"{k}: {v}" for k, v in fields], key=len)) * 8.2) + PAD
+    rule_len = len(header_text) + 2
+    longest_field = max((len(f"{k}: {v}") for k, v in fields), default=0)
+    W = info_x + max(360, longest_field * 8.2) + PAD
 
     art_lines = []
     for i, row in enumerate(art_rows):
@@ -387,7 +400,8 @@ def build_svg(art_rows, fields):
     art_svg = "".join(art_lines)
 
     header_svg = (
-        f'<text x="{info_x}" y="{header_y}" class="header">{xml_escape(header_text)}</text>'
+        f'<text x="{info_x}" y="{header_y}" class="header fadein" style="animation-delay:0.35s">'
+        f'{xml_escape(header_text)}</text>'
         f'\n  <line x1="{info_x}" y1="{rule_y}" x2="{info_x + rule_len * 9.4}" y2="{rule_y}" class="rule" />'
     )
 
@@ -456,11 +470,8 @@ def build_svg(art_rows, fields):
       .promptcmd {{ font-family: 'Courier New', monospace; font-size: 15px; fill: {VALUE_COLOR}; white-space: pre; }}
       .promptcursor {{ fill: {ACCENT}; }}
       {prompt_style}
-      .fadein {{ animation-name: reveal; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      .typewriter {{ animation-name: reveal; animation-duration: 0.4s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      .swatch {{ animation-name: revealSwatch; animation-duration: 0.35s; animation-fill-mode: forwards; animation-timing-function: steps(1); }}
-      @keyframes reveal {{ 0% {{ opacity: 0; }} 1%, 100% {{ opacity: 1; }} }}
-      @keyframes revealSwatch {{ 0% {{ opacity: 0; }} 1%, 100% {{ opacity: 1; }} }}
+      .fadein, .typewriter, .swatch {{ animation: fadeIn 0.65s cubic-bezier(0.22, 1, 0.36, 1) both; }}
+      @keyframes fadeIn {{ from {{ opacity: 0; }} to {{ opacity: 1; }} }}
       @keyframes blink {{ 0%, 49% {{ opacity: 1; }} 50%, 100% {{ opacity: 0; }} }}
     </style>
     {prompt_defs}
