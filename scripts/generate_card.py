@@ -22,7 +22,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 random.seed()
 
-LOGIN = os.environ.get("GITHUB_LOGIN", "kali")
+LOGIN = os.environ.get("GITHUB_LOGIN", "pangeran-droid")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OUT_PATH = os.environ.get("OUT_PATH", "assets/profile.svg")
 
@@ -33,11 +33,11 @@ PROFILE_FIELDS = [
     ("Role", "informatics student"),
     ("Focus", "junior web developer & cybersecurity enthusiast"),
     ("Stack.Frontend", "html, css, javascript"),
-    ("Stack.Backend", "php, laravel, codeigniter"),
-    ("Stack.Scripting", "python"),
+    ("Stack.Backend", "php, laravel, codeigniter, frankenphp"),
+    ("Stack.Scripting", "python, bash"),
     ("Stack.Database", "mysql"),
     ("Stack.Security", "burp suite"),
-    ("Environment", "linux, git, github, vscode"),
+    ("Environment", "kali linux, docker, git, github, vscode"),
     ("Interests", "cybersecurity"),
     ("Contact.GitHub", f"github.com/{LOGIN}"),
     ("Contact.Telegram", "t.me/pangeran1337"),
