@@ -72,7 +72,7 @@ ICON_SOURCES = {
 }
 
 # Kali-matched dark palette
-CARD_BG = "#141c30"
+CARD_BG = "#242938"
 CARD_BORDER = "#1f2740"
 
 # Layout & Animation Configuration
