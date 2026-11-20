@@ -36,7 +36,6 @@
 <h3 align="center">Tech Stack & Tools</h3>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/refs/heads/main/assets/skills.svg">
     <img src="https://raw.githubusercontent.com/pangeran-droid/pangeran-droid/refs/heads/main/assets/skills.svg" alt="My Skills" />
   </a>
 </p>
