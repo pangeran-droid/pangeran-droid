@@ -73,7 +73,7 @@ ICON_SOURCES = {
 
 # Kali-matched dark palette
 CARD_BG = "#242938"
-CARD_BORDER = "#1f2740"
+CARD_BORDER = "#242938"
 
 # Layout & Animation Configuration
 PER_LINE = 6          # Icons per row (bottom row automatically centered)
